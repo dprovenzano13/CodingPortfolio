@@ -1,3 +1,5 @@
-//Example fetch using pokemonapi.co
-// document.querySelector('button').addEventListener('click', )
+// document.querySelector('button').addEventListener('click', getCharacter )
 
+function getCharacter(){
+    
+}
