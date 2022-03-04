@@ -1,4 +1,4 @@
-// document.querySelector('button').addEventListener('click', getCharacter )
+document.querySelector('button').addEventListener('click', getCharacter)
 
 function getCharacter(){
     
