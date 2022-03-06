@@ -1,4 +1,4 @@
-const dbz = [
+const dbs = [
     {
         id: "goku",
         name: "Goku",
