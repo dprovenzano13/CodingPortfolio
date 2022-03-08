@@ -10,10 +10,17 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+html {
+  height: 100%;
+}
 body {
+  height: 100%;
+  border: 1px solid red;
+}
+#allContent {
   background-image: url('../assets/background.jpeg');
   background-size:cover;
-  border: 1px solid red;
+  height: 100%;
 }
 #logo {
   border: 1px solid blue;
