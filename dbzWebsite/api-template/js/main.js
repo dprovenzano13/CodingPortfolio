@@ -1,14 +1,7 @@
-// document.querySelector('button').addEventListener('click', getCharacter)
-
-// function getCharacter(){
-//     const characterName = document.querySelector('input').value.toLowerCase().replace(/\s+/g, '')
-//     console.log(characterName)
-//     document.querySelector('img').src = `assets/${characterName}.png`
-// }
+const select = document.querySelector('select')
 
 function addOptions(obj){
     for(let i = 0; i < obj.length; i++){
-        const select = document.querySelector('select')
         const option = document.createElement('option')
         option.value = obj[i].name.toUpperCase()
         option.innerText = obj[i].name.toUpperCase()
@@ -16,3 +9,11 @@ function addOptions(obj){
     }
 }
 addOptions(dbs)
+
+select.addEventListener('change', event =>{
+
+})
+
+//create a modal for everytime someone picks a character
+
+// picture and info pops up in front

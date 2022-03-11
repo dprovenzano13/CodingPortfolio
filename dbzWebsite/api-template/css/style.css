@@ -19,22 +19,37 @@ html {
   background-attachment: fixed;
 }
 body {
-  height: 100%;
+  min-height: 100vh;
   border: 1px solid red;
 }
 #allContent {
   height: 100%;
 }
+#charList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid green;
+}
+#logoContainer {
+  display: flex;
+  justify-content: center;
+}
 #logo {
   border: 1px solid blue;
   width: 400px;
 }
-img{
+#imgContainer {
+  width: 50%;
+  height: 200px;
+  border: 1px solid purple;
+}
+/* img{
   display: block;
   margin: 0 auto;
   max-width: 900px;
   max-height: 900px;
-}
+} */
 
 
 /******************************************
