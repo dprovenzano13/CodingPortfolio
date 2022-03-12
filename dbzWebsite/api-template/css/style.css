@@ -44,13 +44,35 @@ body {
   height: 200px;
   border: 1px solid purple;
 }
-/* img{
-  display: block;
-  margin: 0 auto;
-  max-width: 900px;
-  max-height: 900px;
-} */
+.modalAll {
+  display: flex;
+  justify-content: center;
+  border: 2px solid greenyellow;
+  position: relative;
+  top: 8vh;
+  max-height: 100vh;
 
+}
+.modalContainer {
+  position: fixed;
+  left: 45vw;
+  border: 2px solid yellow;
+  width: 85vh;
+  height: 50vh;
+  background-color: rgba(255, 255, 255, 0.3);;
+  border-radius: 20px;
+}
+.modalImage {
+  border: 2px solid orange;
+  display: flex;
+  height:  60vh;
+  object-fit: cover;
+  position: relative;
+  right: 18vw;
+}
+#charImg {
+  z-index: 1; 
+}
 
 /******************************************
 /* ADDITIONAL STYLES
