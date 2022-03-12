@@ -3,8 +3,8 @@ const select = document.querySelector('select')
 function addOptions(obj){
     for(let i = 0; i < obj.length; i++){
         const option = document.createElement('option')
-        option.value = obj[i].name.toUpperCase()
-        option.innerText = obj[i].name.toUpperCase()
+        option.value = obj[i].name
+        option.innerText = obj[i].name
         select.appendChild(option)
     }
 }
