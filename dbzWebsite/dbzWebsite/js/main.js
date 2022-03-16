@@ -11,10 +11,26 @@ function addOptions(obj){
 addOptions(dbs)
 
 select.addEventListener('change', event =>{
+    const modal = document.querySelector('.modalAll')
+    const h1 = document.querySelector('h1')
+    const race = document.querySelector('#race span')
+    const bio = document.querySelector('#bio span')
+    const abilities = document.querySelector('#abilities span')
+    const image = document.querySelector('.modalImage img')
+
+    if(modal.classList.contains('hide')){
+        modal.classList.remove('hide') 
+    }
+
     for(let i = 0; i < dbs.length; i++){
         if(event.target.value == dbs[i].name){
-            let h1 = document.querySelector('h1')
             h1.innerText = dbs[i].name
+            race.innerText = `${dbs[i].race}`
+            bio.innerText = `${dbs[i].bio}`
+            abilities.innerText = `${dbs[i].abilities}`
+            image.src = dbs[i].img
+        } else if(event.target.value == 'undefined'){
+            modal.classList.add('hide')
         }
     }
 })

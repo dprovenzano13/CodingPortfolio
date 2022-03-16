@@ -20,7 +20,7 @@ html {
 }
 body {
   min-height: 100vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 #allContent {
   height: 100%;
@@ -33,7 +33,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid rebeccapurple;
+  /* border: 2px solid rebeccapurple; */
   position: relative;
   top: 4vh;
 }
@@ -44,38 +44,39 @@ body {
   border: 0;
 }
 #logo {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   width: 400px;
 }
 .modalAll {
   display: flex;
   justify-content: center;
-  border: 2px solid greenyellow;
+  /* border: 2px solid greenyellow; */
   position: relative;
   top: 8vh;
   max-height: 100vh;
 }
 .modalContainer {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   width: 85vh;
-  height: 50vh;
-  background-color: rgba(255, 255, 255, 0.4);
+  height: 60vh;
+  background-color: rgba(255, 255, 255, 0.75);
   border-radius: 20px;
   position: relative;
   left: 1vw;
+  display: flex;
 }
 .modalImage {
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   display: flex;
   height:  60vh;
   width: 30vw;
   position: relative;
-  left: 7vh;
+  left: 6vh;
 }
 #imgContainer {
   width: 50%;
   height: 200px;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 #charImg {
   object-fit: contain;
@@ -83,13 +84,37 @@ body {
   height: auto;
   z-index: 1; 
 }
-.item {
+.modal {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  /* border: 1px solid magenta; */
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  padding: 5vh;
 }
-/* .hide {
+h3 {
+  color: rgb(208	118	44);
+  font-family: Saiyan-Sans, sans-serif;
+}
+span {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hide {
   display: none;
-} */
+}
+h1 {
+  text-align: center;
+  font-family: Saiyan-Sans, sans-serif;
+  font-size: 80px;
+  margin: 5px 0 0 0;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+@font-face {
+  font-family: Saiyan-Sans;
+  src: url('../fonts/Dragonball\ Z/Saiyan-Sans.ttf');
+  font-weight: 300;
+}

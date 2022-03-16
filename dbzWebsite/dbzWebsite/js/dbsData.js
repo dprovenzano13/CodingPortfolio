@@ -197,9 +197,9 @@ const dbs = [
         defense: "20,000",
         kiRestoreSpeed: "20,000",
         abilities: [
-            "Kamehameha Wave",
-            "Destrcuto Disk",
-            "Solar Flare"
+            " Kamehameha Wave",
+            " Destrcuto Disk",
+            " Solar Flare"
         ],
         img: "assets/krillin.png"
     },
