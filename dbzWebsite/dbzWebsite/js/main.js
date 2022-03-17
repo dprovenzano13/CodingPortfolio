@@ -13,9 +13,9 @@ addOptions(dbs)
 select.addEventListener('change', event =>{
     const modal = document.querySelector('.modalAll')
     const h1 = document.querySelector('h1')
-    const race = document.querySelector('#race span')
-    const bio = document.querySelector('#bio span')
-    const abilities = document.querySelector('#abilities span')
+    const race = document.querySelector('#race div')
+    const bio = document.querySelector('#bio div')
+    const abilities = document.querySelector('#abilities div')
     const image = document.querySelector('.modalImage img')
 
     if(modal.classList.contains('hide')){
@@ -27,7 +27,7 @@ select.addEventListener('change', event =>{
             h1.innerText = dbs[i].name
             race.innerText = `${dbs[i].race}`
             bio.innerText = `${dbs[i].bio}`
-            abilities.innerText = `${dbs[i].abilities}`
+            abilities.innerText = dbs[i].abilities.join(', ')
             image.src = dbs[i].img
         } else if(event.target.value == 'undefined'){
             modal.classList.add('hide')

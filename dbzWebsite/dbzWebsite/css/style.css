@@ -42,6 +42,9 @@ body {
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.75);
   border: 0;
+  font-family: Goku;
+  font-size: 30px;
+  
 }
 #logo {
   /* border: 1px solid blue; */
@@ -96,10 +99,16 @@ body {
 h3 {
   color: rgb(208	118	44);
   font-family: Saiyan-Sans, sans-serif;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  margin: 20px 0 10px 0;
 }
-span {
+div {
   color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: .3px;
+  font-size: 20px;
+  line-height: 1.4;
 }
 .hide {
   display: none;
@@ -109,6 +118,7 @@ h1 {
   font-family: Saiyan-Sans, sans-serif;
   font-size: 80px;
   margin: 5px 0 0 0;
+  letter-spacing: 7px;
 }
 /******************************************
 /* ADDITIONAL STYLES
@@ -117,4 +127,8 @@ h1 {
   font-family: Saiyan-Sans;
   src: url('../fonts/Dragonball\ Z/Saiyan-Sans.ttf');
   font-weight: 300;
+}
+@font-face {
+  font-family: Goku;
+  src: url('../fonts/Dragonball\ Z/Goku.ttf');
 }
