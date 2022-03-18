@@ -24,6 +24,7 @@ select.addEventListener('change', event =>{
 
     for(let i = 0; i < dbs.length; i++){
         if(event.target.value == dbs[i].name){
+            console.log(event.target.value)
             h1.innerText = dbs[i].name
             race.innerText = `${dbs[i].race}`
             bio.innerText = `${dbs[i].bio}`
