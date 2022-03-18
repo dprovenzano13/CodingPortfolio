@@ -120,8 +120,14 @@ h1 {
   margin: 5px 0 0 0;
   letter-spacing: 7px;
 }
-#dragonball {
-  width: 50px;
+
+#shenronContainer {
+  text-align: center;
+}
+#shenron {
+  object-fit: contain;
+  width: 70vw;
+  height: 70vh;
 }
 /******************************************
 /* ADDITIONAL STYLES

@@ -26,8 +26,8 @@ select.addEventListener('change', event =>{
         if(event.target.value == dbs[i].name){
             console.log(event.target.value)
             h1.innerText = dbs[i].name
-            race.innerText = `${dbs[i].race}`
-            bio.innerText = `${dbs[i].bio}`
+            race.innerText = dbs[i].race
+            bio.innerText = dbs[i].bio
             abilities.innerText = dbs[i].abilities.join(', ')
             image.src = dbs[i].img
         } else if(event.target.value == 'undefined'){
