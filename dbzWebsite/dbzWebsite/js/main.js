@@ -17,6 +17,9 @@ select.addEventListener('change', event =>{
     const bio = document.querySelector('#bio div')
     const abilities = document.querySelector('#abilities div')
     const image = document.querySelector('.modalImage img')
+    const dragon = document.querySelector('#shenron')
+
+    dragon.classList.add('hide')
 
     if(modal.classList.contains('hide')){
         modal.classList.remove('hide') 
@@ -24,19 +27,15 @@ select.addEventListener('change', event =>{
 
     for(let i = 0; i < dbs.length; i++){
         if(event.target.value == dbs[i].name){
-            console.log(event.target.value)
             h1.innerText = dbs[i].name
             race.innerText = dbs[i].race
             bio.innerText = dbs[i].bio
             abilities.innerText = dbs[i].abilities.join(', ')
             image.src = dbs[i].img
-        } else if(event.target.value == 'undefined'){
+        } else if(event.target.value == 'starter'){
             modal.classList.add('hide')
+            dragon.classList.remove('hide')
         }
     }
 })
-
-//create a modal for everytime someone picks a character
-
-// picture and info pops up in front
 
