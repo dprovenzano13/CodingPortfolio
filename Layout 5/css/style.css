@@ -1,0 +1,209 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  font-family: Montserrat, sans-serif;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  float: left;
+  height: 75px;
+  width: 100%;
+  padding-top: 5px;
+  background: rgb(246, 249, 252);
+}
+main {
+  float: left;
+  width: 100%;
+  background: rgb(246, 249, 252);
+}
+nav {
+  padding: 10px;
+}
+nav > a {
+  float: left;
+  width: 25%;
+}
+.button {
+  float: right;
+  border: 1px solid rgb(48, 65, 83);
+  background: rgb(48, 65, 83);
+  padding: 10px;
+  margin-right: 2%;
+}
+.button a {
+  color: white;
+  font-size: 90%;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(79, 96, 113);
+}
+.sources {
+  color: rgb(48, 65, 83);
+  font-weight: 700;
+  font-size: 125%;
+  padding-left: 2%;
+}
+nav ul {
+  float: left;
+  width: 60%;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  margin-top: 5px;
+}
+nav ul li {
+  float: left;
+  width: 15%;
+  text-align: center;
+}
+nav ul li a {
+  font-size: 90%;
+}
+.tagline {
+  float: left;
+  width: 40%;
+  padding: 7%;
+  color: rgb(79, 96, 113);
+}
+.tagline input {
+  background: rgb(226, 233, 239);
+  padding: 3%;
+  width: 100%;
+  border: none;
+}
+.tagline input::placeholder {
+  color: rgb(160, 172, 183);
+}
+.tagline h1 {
+  color: rgb(48, 65, 83);
+  margin: 5% 0;
+}
+.tagline span {
+  font-size: 15px;
+}
+.tagline form {
+  float: left;
+  width: 50%;
+}
+.tagline a {
+  float: left;
+  width: 50%
+  border: 1px solid rgb(48, 65, 83);
+  background: rgb(48, 65, 83);
+  padding: 8px;
+  color: white;
+  font-size: 90%;
+  text-decoration: none;
+}
+.tagline p {
+  padding-top: 6%;
+  clear: both;
+}
+.computer {
+  float: left;
+  width: 60%;
+}
+.computer img {
+  width: 100%;
+}
+.four {
+  float: left;
+  width: 100%;
+  background: rgb(246, 249, 252);
+  padding: 6%;
+  color: rgb(79, 96, 113);
+}
+.rectangle {
+  float: left;
+  width: 25%;
+  padding: 1%;
+}
+.four i {
+  font-size: 2em;
+  color: rgb(48, 65, 83);
+}
+.four h3, .four a {
+  color: rgb(48, 65, 83);
+}
+.four p {
+  font-size: 90%;
+}
+.four a {
+  text-decoration: none;
+  font-size: 90%;
+  font-weight: 700;
+}
+.collecting {
+  float: left;
+  padding: 4% 4% 4% 7%;
+}
+.collecting h2 {
+  font-size: 170%;
+  padding-right: 60%;
+  color: rgb(48, 65, 83);
+}
+.collecting p {
+  font-size: 90%;
+  padding-right: 45%;
+  color: rgb(79, 96, 113);
+}
+.menuWrap, .menu, #toggle {
+  display: none;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media all and (max-width: 500px) {
+  .tagline, .computer {
+    width: 100%;
+  }
+  nav ul {
+    visibility: hidden;
+  }
+  .tagline input, .tagline form {
+    width: 100%;
+  }
+  nav > a {
+    position: relative;
+    left: 35%;
+    display: block;
+  }
+  .tagline a {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    padding: 5%;
+  }
+  .menuWrap, .menu {
+    display: block;
+    margin-left: 5%;
+  }
+  .menuWrap label {
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(48, 65, 83);
+  }
+}
