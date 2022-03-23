@@ -187,55 +187,55 @@
         img: "assets/hit.png"
     },
     {
-        "id": "krillin",
-        "name": "Krillin",
-        "race": "Human",
-        "gender": "Male",
-        "bio": "Krillin, is a supporting protagonist in the Dragon Ball manga, and the anime series Dragon Ball, Dragon Ball Z, Dragon Ball GT and Dragon Ball Super. Krillin had a brief rivalry with Goku when they first met and trained under Master Roshi, but they quickly became lifelong best friends. One of the most powerful and talented martial artists on Earth, Krillin is courageous, a faithful ally and good-natured. He is a prominent Z Fighter, despite usually being overpowered by the major enemies. His short stature and baldness (with the exception of when he grows out his hair in the Majin Buu Saga onwards) aid him in his ability to provide comic relief during tense moments. During the latter half of Dragon Ball Z, he largely retires from fighting, opting to settle down with his family instead, becoming the husband of Android 18 and the father of Marron. However, he returns to his lifestyle as a warrior later on in Dragon Ball Super.",
-        "health": "180,000",
-        "attack": "20,000",
-        "defense": "20,000",
-        "kiRestoreSpeed": "20,000",
-        "abilities": [
+        id: "krillin",
+        name: "Krillin",
+        race: "Human",
+        gender: "Male",
+        bio: "Krillin, is a supporting protagonist in the Dragon Ball manga, and the anime series Dragon Ball, Dragon Ball Z, Dragon Ball GT and Dragon Ball Super. Krillin had a brief rivalry with Goku when they first met and trained under Master Roshi, but they quickly became lifelong best friends. One of the most powerful and talented martial artists on Earth, Krillin is courageous, a faithful ally and good-natured. He is a prominent Z Fighter, despite usually being overpowered by the major enemies. His short stature and baldness (with the exception of when he grows out his hair in the Majin Buu Saga onwards) aid him in his ability to provide comic relief during tense moments. During the latter half of Dragon Ball Z, he largely retires from fighting, opting to settle down with his family instead, becoming the husband of Android 18 and the father of Marron. However, he returns to his lifestyle as a warrior later on in Dragon Ball Super.",
+        health: "180,000",
+        attack: "20,000",
+        defense: "20,000",
+        kiRestoreSpeed: "20,000",
+        abilities: [
             "Kamehameha Wave",
             "Destrcuto Disk",
             "Solar Flare"
         ],
-        "img": "assets/krillin.png"
+        img: "assets/krillin.png"
     },
     {
-        "id": "jiren",
-        "name": "Jiren",
-        "race": "Unknown",
-        "gender": "Male",
-        "bio": "Jiren, also referred to as Jiren The Gray, is a member of the Pride Troopers who participated in the Tournament of Power with the purpose of obtaining a wish from the Super Dragon Balls. Jiren is a quiet and honorable fighter, who believes in strength and justice.",
-        "health": "740,000",
-        "attack": "74,000",
-        "defense": "74,000",
-        "kiRestoreSpeed": "74,000",
-        "abilities": [
+        id: "jiren",
+        name: "Jiren",
+        race: "Unknown",
+        gender: "Male",
+        bio: "Jiren, also referred to as Jiren The Gray, is a member of the Pride Troopers who participated in the Tournament of Power with the purpose of obtaining a wish from the Super Dragon Balls. Jiren is a quiet and honorable fighter, who believes in strength and justice.",
+        health: "740,000",
+        attack: "74,000",
+        defense: "74,000",
+        kiRestoreSpeed: "74,000",
+        abilities: [
             "Invisisble Eye Blast",
             "Energy Barrier",
             "Overheat Magnetron"
         ],
-        "img": "assets/jiren.png"
+        img: "assets/jiren.png"
     },
     {
-        "id": "tien",
-        "name": "Tien",
-        "race": "Human",
-        "gender": "Male",
-        "bio": "Tien Shinhan is a disciplined, reclusive and heavily devoted martial artist, and one of the strongest Earthlings within the Dragon Ball universe. He also possesses a few non-human traits due to being descended from the Three-Eyed People. He was originally a student of the Crane School who desired revenge against Goku for defeating his mentor, Mercenary Tao, but realized he was on the wrong side with the help of Master Roshi. He battles alongside the other Z Fighters when major threats to the Earth surface, often courageously engaging enemies far more powerful than himself. However, he spends most of his time training with his lifelong best friend, Chiaotzu.",
-        "health": "170,000",
-        "attack": "18,000",
-        "defense": "18,000",
-        "kiRestoreSpeed": "19,000",
-        "abilities": [
+        id: "tien",
+        name: "Tien",
+        race: "Human",
+        gender: "Male",
+        bio: "Tien Shinhan is a disciplined, reclusive and heavily devoted martial artist, and one of the strongest Earthlings within the Dragon Ball universe. He also possesses a few non-human traits due to being descended from the Three-Eyed People. He was originally a student of the Crane School who desired revenge against Goku for defeating his mentor, Mercenary Tao, but realized he was on the wrong side with the help of Master Roshi. He battles alongside the other Z Fighters when major threats to the Earth surface, often courageously engaging enemies far more powerful than himself. However, he spends most of his time training with his lifelong best friend, Chiaotzu.",
+        health: "170,000",
+        attack: "18,000",
+        defense: "18,000",
+        kiRestoreSpeed: "19,000",
+        abilities: [
             "Tri Beam",
             "Solar Flare",
             "Tri-Form"
         ],
-        "img": "assets/tien.png"
+        img: "assets/tien.png"
     },
     {
         id: "android 17",
