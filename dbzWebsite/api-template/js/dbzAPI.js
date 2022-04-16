@@ -85,21 +85,21 @@
         img: "assets/frieza.png"
     },
     {
-        "id": "cell",
-        "name": "Cell",
-        "race": "Android",
-        "gender": "Male",
-        "bio": "Cell is the ultimate creation of Dr. Gero, who came from a future timeline, designed to possess all the abilities of the greatest fighters to have ever inhabited or visited Earth; the result was a perfect warrior, possessing numerous favorable genetic traits and special abilities. He was one of the few Red Ribbon Androids not directly completed by Dr. Gero; he was completed by Dr. Gero's Supercomputer. He is the main antagonist of the Imperfect Cell, Perfect Cell, and Cell Games Sagas.",
-        "health": "200,000",
-        "attack": "20,000",
-        "defense": "20,000",
-        "kiRestoreSpeed": "20,000",
-        "abilities": [
+        id: "cell",
+        name: "Cell",
+        race: "Android",
+        gender: "Male",
+        bio: "Cell is the ultimate creation of Dr. Gero, who came from a future timeline, designed to possess all the abilities of the greatest fighters to have ever inhabited or visited Earth; the result was a perfect warrior, possessing numerous favorable genetic traits and special abilities. He was one of the few Red Ribbon Androids not directly completed by Dr. Gero; he was completed by Dr. Gero's Supercomputer. He is the main antagonist of the Imperfect Cell, Perfect Cell, and Cell Games Sagas.",
+        health: "200,000",
+        attack: "20,000",
+        defense: "20,000",
+        kiRestoreSpeed: "20,000",
+        abilities: [
             "Energy Shield",
             "Super Kamehameha",
             "Destructo Disk"
         ],
-        "img": "assets/cell.png"
+        img: "assets/cell.png"
     },
     {
         "id": "buu",
