@@ -102,21 +102,21 @@
         img: "assets/cell.png"
     },
     {
-        "id": "buu",
-        "name": "Buu",
-        "race": "Majin",
-        "gender": "Male",
-        "bio": "Majin Buu, generally spelled Majin Boo in subtitles of the Japanese anime, and rendered as Djinn-Boo in the Viz Media manga, is a fictional character and the final antagonist in the Dragon Ball manga series created by Akira Toriyama. He is introduced in chapter #460 Majin Boo Appears?! Majin Bū Shutsugen ka!?) first published in Weekly Shōnen Jump magazine on March 1, 1994. Majin Buu is a genie-like magical life form created by the evil warlock Bibidi that terrorized galaxies by destroying entire planets, millions of years before the events of Dragon Ball take place. He was temporarily sealed away and brought to Earth; however, Bibbidi was killed and Buu remained hidden. During the events of Dragon Ball, he is revived by Bibidi's son Babidi in order to carry on his father's plan to conquer the entire universe.",
-        "health": "350,000",
-        "attack": "29,000",
-        "defense": "29,000",
-        "kiRestoreSpeed": "28,000",
-        "abilities": [
+        id: "buu",
+        name: "Buu",
+        race: "Majin",
+        gender: "Male",
+        bio: "Majin Buu, generally spelled Majin Boo in subtitles of the Japanese anime, and rendered as Djinn-Boo in the Viz Media manga, is a fictional character and the final antagonist in the Dragon Ball manga series created by Akira Toriyama. He is introduced in chapter #460 Majin Boo Appears?! Majin Bū Shutsugen ka!?) first published in Weekly Shōnen Jump magazine on March 1, 1994. Majin Buu is a genie-like magical life form created by the evil warlock Bibidi that terrorized galaxies by destroying entire planets, millions of years before the events of Dragon Ball take place. He was temporarily sealed away and brought to Earth; however, Bibbidi was killed and Buu remained hidden. During the events of Dragon Ball, he is revived by Bibidi's son Babidi in order to carry on his father's plan to conquer the entire universe.",
+        health: "350,000",
+        attack: "29,000",
+        defense: "29,000",
+        kiRestoreSpeed": "28,000",
+        abilities: [
             "Absorption",
             "Healing",
             "Chocolate Beam"
         ],
-        "img": "assets/buu.png"
+        img: "assets/buu.png"
     },
     {
         "id": "beerus",
