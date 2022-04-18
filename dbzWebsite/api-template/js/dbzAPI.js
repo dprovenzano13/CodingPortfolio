@@ -289,54 +289,54 @@
         "img": "assets/broly.png"
     },
     {
-        "id": "vegito",
-        "name": "Vegito",
-        "race": "Saiyan",
-        "gender": "Male",
-        "bio": "Vegito, called Vegerot in the Viz English manga, is the immensely powerful result of the fusion between Goku and Vegeta by the use of the Potara Earrings. Vegito is the most powerful character in the Dragon Ball manga. His Fusion Dance counterpart is Gogeta. Vegito is a mixture of both Goku and Vegeta's characteristics, with a few deviations. He has the same body type as Goku, while his hair color is dark brown to reddish brown. He has Goku's softer jawline and Vegeta's sharper eyes. Vegito's upper hair style stands firmly upwards like Vegeta, while having Goku's hairline and has two bangs sticking out like a downward V shape. When he transforms into a Super Saiyan or Super Saiyan Blue, his hair shape stays the same. Vegito wears two yellow Potara earrings as result of the Potara fusion, and wears Goku's style of clothing with the colors reversed, reflecting Vegeta's outfit; he wears a blue gi and sash with an orange undershirt. Also from Vegeta, he wears white gloves and boots. In Super Dragon Ball Heroes, Vegito wears a black gi with an orange shirt on his inside and a blue obi tied over it at his waist. He also wears Vegeta's white gloves and boots from Dragon Ball Z: Resurrection F.",
-        "health": "780,000",
-        "attack": "70,000",
-        "defense": "60,000",
-        "kiRestoreSpeed": "60,000",
-        "abilities": [
+        id: "vegito",
+        name: "Vegito",
+        race: "Saiyan",
+        gender: "Male",
+        bio: "Vegito, called Vegerot in the Viz English manga, is the immensely powerful result of the fusion between Goku and Vegeta by the use of the Potara Earrings. Vegito is the most powerful character in the Dragon Ball manga. His Fusion Dance counterpart is Gogeta. Vegito is a mixture of both Goku and Vegeta's characteristics, with a few deviations. He has the same body type as Goku, while his hair color is dark brown to reddish brown. He has Goku's softer jawline and Vegeta's sharper eyes. Vegito's upper hair style stands firmly upwards like Vegeta, while having Goku's hairline and has two bangs sticking out like a downward V shape. When he transforms into a Super Saiyan or Super Saiyan Blue, his hair shape stays the same. Vegito wears two yellow Potara earrings as result of the Potara fusion, and wears Goku's style of clothing with the colors reversed, reflecting Vegeta's outfit; he wears a blue gi and sash with an orange undershirt. Also from Vegeta, he wears white gloves and boots. In Super Dragon Ball Heroes, Vegito wears a black gi with an orange shirt on his inside and a blue obi tied over it at his waist. He also wears Vegeta's white gloves and boots from Dragon Ball Z: Resurrection F.",
+        health: "780,000",
+        attack: "70,000",
+        defense: "60,000",
+        kiRestoreSpeed: "60,000",
+        abilities: [
             "Super Saiyan Transformations",
             "Final Kamehameha",
             "Beam Sword Slash"
         ],
-        "img": "assets/vegito.png"
+        img: "assets/vegito.png"
     },
     {
-        "id": "gogeta",
-        "name": "Gogeta",
-        "race": "Saiyan",
-        "gender": "Male",
-        "bio": "Gogeta is the resulting fusion of two highly powerful Saiyans, Goku and Vegeta, when they perform the Fusion Dance properly. His voice is a dual voice that contains both Goku's and Vegeta's voices. Gogeta is famous for his amazing power and speed, and is regarded as one of the most powerful characters in the Dragon Ball Z and Dragon Ball GT series. His Potara Fusion counterpart is Vegito.  Gogeta wears the same clothes that all creations of the Fusion Dance wear. However, Gogeta's vest has a different color scheme than Gotenks': the padding around the neck and shoulders of the vest are reddish orange rather than yellow, and the vest is black rather than the dark blue vest that Gotenks wears. His hair is very similar to Vegito's, with the only differences being that Gogeta only has one free hanging lock of hair instead of two and Gogeta having Vegeta's widow's peak. Gogeta also acquires Goku's peach like skin rather than adopt Vegeta's more mild tan. Gogeta possesses Goku's body structure as he is tall and slender, but he seems to mostly possess Vegeta's facial features.",
-        "health": "700,000",
-        "attack": "60,000",
-        "defense": "55,000",
-        "kiRestoreSpeed": "55,000",
-        "abilities": [
+        id: "gogeta",
+        name: "Gogeta",
+        race: "Saiyan",
+        gender: "Male",
+        bio: "Gogeta is the resulting fusion of two highly powerful Saiyans, Goku and Vegeta, when they perform the Fusion Dance properly. His voice is a dual voice that contains both Goku's and Vegeta's voices. Gogeta is famous for his amazing power and speed, and is regarded as one of the most powerful characters in the Dragon Ball Z and Dragon Ball GT series. His Potara Fusion counterpart is Vegito.  Gogeta wears the same clothes that all creations of the Fusion Dance wear. However, Gogeta's vest has a different color scheme than Gotenks': the padding around the neck and shoulders of the vest are reddish orange rather than yellow, and the vest is black rather than the dark blue vest that Gotenks wears. His hair is very similar to Vegito's, with the only differences being that Gogeta only has one free hanging lock of hair instead of two and Gogeta having Vegeta's widow's peak. Gogeta also acquires Goku's peach like skin rather than adopt Vegeta's more mild tan. Gogeta possesses Goku's body structure as he is tall and slender, but he seems to mostly possess Vegeta's facial features.",
+        health: "700,000",
+        attack: "60,000",
+        defense: "55,000",
+        kiRestoreSpeed: "55,000",
+        abilities: [
             "Super Saiyan Transformations",
             "Big Bang Kamehameha",
             "Stardust Breaker"
         ],
-        "img": "assets/gogeta.png"
+        img: "assets/gogeta.png"
     },
     {
-        "id": "goku black",
-        "name": "Goku Black",
-        "race": "Saiyan",
-        "gender": "Male",
-        "bio": "Goku Black, usually referred to as Black, is the main antagonist of the Future Trunks Saga of Dragon Ball Super. His true identity is the original present Zamasu, a former North Kai and Supreme Kai apprentice serving the Supreme Kai of Universe 10, Gowasu, from the unaltered main timeline, in which he stole the body of the original present Goku and sought to destroy all mortals alongside Future Zamasu. He was given the name Goku Black by Future Bulma when he initially referred to himself as Son Goku. His original appearance is the same as his future timeline counterpart, being an above-average height Kai of slim built and green skin, and with a white Mohawk. However, after killing the original present Gowasu, he wore his former master's matching set of gold and green Potara earrings. After stealing the original present Goku's body, it underwent physical changes. While still essentially identical, he has a slightly darker skin tone and more defined eyes, along with a somewhat skinnier physique. His hair is also a noticeably dark shade of black with only four front spikes and three back ones. While initially wearing his Supreme Kai attire, he soon after taking Goku's body began wearing a sleeveless dark grey tunic, a long-sleeved black undershirt with a turtleneck, a red sash, black pants and white boots. He also gave the right Potara earring to his future counterpart while still wearing the other earring on his left ear. In the anime, he also wears a Time Ring on his right index finger, while in the manga, his counterpart is trusted with wearing it. Also, in the manga, he has dark outlines around his eyes.",
-        "health": "480,000",
-        "attack": "480,000",
-        "defense": "48,000",
-        "kiRestoreSpeed": "48,000",
-        "abilities": [
+        id: "goku black",
+        name: "Goku Black",
+        race: "Saiyan",
+        gender: "Male",
+        bio: "Goku Black, usually referred to as Black, is the main antagonist of the Future Trunks Saga of Dragon Ball Super. His true identity is the original present Zamasu, a former North Kai and Supreme Kai apprentice serving the Supreme Kai of Universe 10, Gowasu, from the unaltered main timeline, in which he stole the body of the original present Goku and sought to destroy all mortals alongside Future Zamasu. He was given the name Goku Black by Future Bulma when he initially referred to himself as Son Goku. His original appearance is the same as his future timeline counterpart, being an above-average height Kai of slim built and green skin, and with a white Mohawk. However, after killing the original present Gowasu, he wore his former master's matching set of gold and green Potara earrings. After stealing the original present Goku's body, it underwent physical changes. While still essentially identical, he has a slightly darker skin tone and more defined eyes, along with a somewhat skinnier physique. His hair is also a noticeably dark shade of black with only four front spikes and three back ones. While initially wearing his Supreme Kai attire, he soon after taking Goku's body began wearing a sleeveless dark grey tunic, a long-sleeved black undershirt with a turtleneck, a red sash, black pants and white boots. He also gave the right Potara earring to his future counterpart while still wearing the other earring on his left ear. In the anime, he also wears a Time Ring on his right index finger, while in the manga, his counterpart is trusted with wearing it. Also, in the manga, he has dark outlines around his eyes.",
+        health: "480,000",
+        attack: "480,000",
+        defense: "48,000",
+        kiRestoreSpeed: "48,000",
+        abilities: [
             "Super Saiyan Transformations",
             "Black Kamehameha",
             "God Slicer"
         ],
-        "img": "assets/gokublack.png"
+        img: "assets/gokublack.png"
     }
 ]
