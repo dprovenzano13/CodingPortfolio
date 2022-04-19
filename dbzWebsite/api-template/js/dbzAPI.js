@@ -238,55 +238,55 @@
         "img": "assets/tien.png"
     },
     {
-        "id": "android 17",
-        "name": "Android 17",
-        "race": "Android",
-        "gender": "Male",
-        "bio": "Android 17, Lapis when he was an ordinary human, is the twin brother of Android 18 and Dr. Gero's seventeenth android creation, designed to serve Gero's vendetta against Goku. Despite his interests not initially deviating from this expectation, Android 17 takes it upon himself to kill Dr. Gero, who is uncooperative with Android 18's curiosity in activating Android 16 and deemed inferior by 17. Android 17 makes a return a decade later in Dragon Ball Super, working as a national park ranger preserving wildlife from poachers. He is married and has a child, with two more children being adopted. He is asked by Goku to join Team Universe 7 in the Tournament of Power and due to Goku and Frieza's sacrifice to take out Jiren, he is left as the sole fighter remaining by the end of the tournament and the one who makes the wish on the Super Dragon Balls.",
-        "health": "440,000",
-        "attack": "43,000",
-        "defense": "42,000",
-        "kiRestoreSpeed": "42,000",
-        "abilities": [
+        id: "android 17",
+        name: "Android 17",
+        race: "Android",
+        gender: "Male",
+        bio: "Android 17, Lapis when he was an ordinary human, is the twin brother of Android 18 and Dr. Gero's seventeenth android creation, designed to serve Gero's vendetta against Goku. Despite his interests not initially deviating from this expectation, Android 17 takes it upon himself to kill Dr. Gero, who is uncooperative with Android 18's curiosity in activating Android 16 and deemed inferior by 17. Android 17 makes a return a decade later in Dragon Ball Super, working as a national park ranger preserving wildlife from poachers. He is married and has a child, with two more children being adopted. He is asked by Goku to join Team Universe 7 in the Tournament of Power and due to Goku and Frieza's sacrifice to take out Jiren, he is left as the sole fighter remaining by the end of the tournament and the one who makes the wish on the Super Dragon Balls.",
+        health: "440,000",
+        attack: "43,000",
+        defense: "42,000",
+        kiRestoreSpeed: "42,000",
+        abilities: [
             "Super Saiyan Transformations",
             "Super Kamehameha",
             "Super Dragon Fist"
         ],
-        "img": "assets/android17.png"
+        img: "assets/android17.png"
     },
     {
-        "id": "android 18",
-        "name": "Android 18",
-        "race": "Android",
-        "gender": "Female",
-        "bio": "Android 18, Artificial Human No. 18, Razuri when she was an ordinary human, is the twin sister of Android 17 and Dr. Gero's eighteenth android creation, designed to serve Gero's vendetta against Goku. While her interests do not initially deviate from this expectation, her curiosity to activate Android 16, in spite of Gero's orders not to do so, leads Android 17 to take it upon himself to murder Gero. Eventually, Android 18 becomes a member of the Z Fighters, as well as the wife of Krillin and the mother of their daughter Marron.",
-        "health": "420,000",
-        "attack": "40,000",
-        "defense": "40,000",
-        "kiRestoreSpeed": "40,000",
-        "abilities": [
+        id: "android 18",
+        name: "Android 18",
+        race: "Android",
+        gender: "Female",
+        bio: "Android 18, Artificial Human No. 18, Razuri when she was an ordinary human, is the twin sister of Android 17 and Dr. Gero's eighteenth android creation, designed to serve Gero's vendetta against Goku. While her interests do not initially deviate from this expectation, her curiosity to activate Android 16, in spite of Gero's orders not to do so, leads Android 17 to take it upon himself to murder Gero. Eventually, Android 18 becomes a member of the Z Fighters, as well as the wife of Krillin and the mother of their daughter Marron.",
+        health: "420,000",
+        attack: "40,000",
+        defense: "40,000",
+        kiRestoreSpeed: "40,000",
+        abilities: [
             "Android Barrier",
             "Full Power Energy Ball",
             "Power Blitz"
         ],
-        "img": "assets/android18.png"
+        img: "assets/android18.png"
     },
     {
-        "id": "broly",
-        "name": "Broly",
-        "race": "Saiyan",
-        "gender": "Male",
-        "bio": "Broly is the main antagonist in the Broly Triple Threat trilogy. He appears to be the latest of the Legendary Super Saiyans who appears every thousand years. His father is Paragus. Broly is a light-skinned Saiyan with dark eyes and black spiky hair reaching his mid-back with short bangs framing his forehead. When he was a kid, he wore a black one-strap tunic with gray pants and brown boots, alongside a rope belt and bracelets. As an adult, Broly is very tall with a lean but well-built frame. His facial expression, even before wearing the crown, had a melancholic demeanor to it. He is shirtless while wearing white pants with a red sash draped around his waist and secured by a yellow belt with a blue gem-center. He also wears similar yellow boots with a blue gem at the top the front. It is implied that the outfit was made of a similar material to the Battle Armor, regardless of what size-increasing transformation he used, his clothing always remained intact and grew in size with him. To better control Broly and his power as his mental-instability continued to grow, Paragus placed a crown on Broly's forehead, along with wristbands and a necklace with a flat plate over the chest, each which are golden with a blue gem. Broly also wore golden bands over his biceps. After breaking free from Paragas' control, Broly's crown and armbands were destroyed. After Broly's defeat against Goku, he obtained scorch marks across his chest.",
-        "health": "800,000",
-        "attack": "80,000",
-        "defense": "80,000",
-        "kiRestoreSpeed": "80,000",
-        "abilities": [
+        id: "broly",
+        name: "Broly",
+        race: "Saiyan",
+        gender: "Male",
+        bio: "Broly is the main antagonist in the Broly Triple Threat trilogy. He appears to be the latest of the Legendary Super Saiyans who appears every thousand years. His father is Paragus. Broly is a light-skinned Saiyan with dark eyes and black spiky hair reaching his mid-back with short bangs framing his forehead. When he was a kid, he wore a black one-strap tunic with gray pants and brown boots, alongside a rope belt and bracelets. As an adult, Broly is very tall with a lean but well-built frame. His facial expression, even before wearing the crown, had a melancholic demeanor to it. He is shirtless while wearing white pants with a red sash draped around his waist and secured by a yellow belt with a blue gem-center. He also wears similar yellow boots with a blue gem at the top the front. It is implied that the outfit was made of a similar material to the Battle Armor, regardless of what size-increasing transformation he used, his clothing always remained intact and grew in size with him. To better control Broly and his power as his mental-instability continued to grow, Paragus placed a crown on Broly's forehead, along with wristbands and a necklace with a flat plate over the chest, each which are golden with a blue gem. Broly also wore golden bands over his biceps. After breaking free from Paragas' control, Broly's crown and armbands were destroyed. After Broly's defeat against Goku, he obtained scorch marks across his chest.",
+        health: "800,000",
+        attack: "80,000",
+        defense: "80,000",
+        kiRestoreSpeed: "80,000",
+        abilities: [
             "Super Saiyan Transformations",
             "Eraser Cannon",
             "Gigantic Slam"
         ],
-        "img": "assets/broly.png"
+        img: "assets/broly.png"
     },
     {
         id: "vegito",
