@@ -1,9 +1,9 @@
 [
     {
         id: "goku",
-        name": "Goku",
-        race": "Saiyan",
-        gender": "Male",
+        name: "Goku",
+        race: "Saiyan",
+        gender: "Male",
         bio: "Goku, born Kakarot, is a male Saiyan and the main protagonist of the Dragon Ball series. Goku is a Saiyan originally sent to Earth as an infant with the mission to destroy its people. However, an accident alters his memory, allowing him to grow up to become Earth's greatest defender and the informal leader of the Dragon Team. He constantly strives and trains to be the greatest warrior possible, which has kept the Earth and the universe safe from destruction many times.",
         health: "500,000",
         attack: "50,000",
@@ -110,7 +110,7 @@
         health: "350,000",
         attack: "29,000",
         defense: "29,000",
-        kiRestoreSpeed": "28,000",
+        kiRestoreSpeed: "28,000",
         abilities: [
             "Absorption",
             "Healing",
