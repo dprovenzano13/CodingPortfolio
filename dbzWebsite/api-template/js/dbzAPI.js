@@ -51,16 +51,16 @@
         img: "assets/gohan.png"
     },
     {
-        "id": "trunks",
-        "name": "Trunks",
-        "race": "Human/Saiyan",
-        "gender": "Male",
-        "bio": "Trunks has his grandfather's lavender hair color (blue in the manga) and his mother's blue eyes. He has his father's eye shape, facial features and tanned skin and his hair turns blond and eyes turn (pupil-less) green when he becomes a Super Saiyan. Several characters, such as Goku, Krillin and Bulma, remark how much Trunks resembles Vegeta. For the majority of the Buu Saga, Present Trunks wears a dark green gi, an orange belt, orange wristbands and the same golden boots that Future Trunks wears, he also wears this in the movie, Bio-Broly. In the events of Broly - Second Coming, Trunks wears a light green long sleeve hoodie with a black short sleeve undershirt with a red collar, indigo blue denim shorts and his golden boots from his primary outfit. He later wears Maloja's necklace. In Dragon Ball Z: Battle of Gods, Trunks wears overalls and a blue undershirt with maroon wristbands. At the end of Dragon Ball Z, Trunks now wears a black long-sleeved shirt, a golden vest, dark gray pants and the same golden boots that he wore as a child. Later he wears a black sleeveless muscle shirt with a CAPSULE logo at the center of his shirt, gray pants and his boots from his childhood.",
-        "health": "470,000",
-        "attack": "44,000",
-        "defense": "43,000",
-        "kiRestoreSpeed": "40,000",
-        "abilities": [
+        id: "trunks",
+        name: "Trunks",
+        race: "Human/Saiyan",
+        gender: "Male",
+        bio: "Trunks has his grandfather's lavender hair color (blue in the manga) and his mother's blue eyes. He has his father's eye shape, facial features and tanned skin and his hair turns blond and eyes turn (pupil-less) green when he becomes a Super Saiyan. Several characters, such as Goku, Krillin and Bulma, remark how much Trunks resembles Vegeta. For the majority of the Buu Saga, Present Trunks wears a dark green gi, an orange belt, orange wristbands and the same golden boots that Future Trunks wears, he also wears this in the movie, Bio-Broly. In the events of Broly - Second Coming, Trunks wears a light green long sleeve hoodie with a black short sleeve undershirt with a red collar, indigo blue denim shorts and his golden boots from his primary outfit. He later wears Maloja's necklace. In Dragon Ball Z: Battle of Gods, Trunks wears overalls and a blue undershirt with maroon wristbands. At the end of Dragon Ball Z, Trunks now wears a black long-sleeved shirt, a golden vest, dark gray pants and the same golden boots that he wore as a child. Later he wears a black sleeveless muscle shirt with a CAPSULE logo at the center of his shirt, gray pants and his boots from his childhood.",
+        health: "470,000",
+        attack: "44,000",
+        defense: "43,000",
+        kiRestoreSpeed: "40,000",
+        abilities: [
             "Super Saiyan Transformations",
             "Galic Gun",
             "Finish Buster"
