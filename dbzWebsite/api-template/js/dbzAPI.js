@@ -68,21 +68,21 @@
         "img": "assets/trunks.png"
     },
     {
-        "id": "frieza",
-        "name": "Frieza",
-        "race": "Unknown",
-        "gender": "Male",
-        "bio": "Frieza, romanized as Freeza in Japanese merchandise, Funimation's English subtitles and Viz Media's release of the manga, is a fictional character in the Dragon Ball manga series created by Akira Toriyama. Frieza makes his debut in Chapter #247: Dark Clouds Swirl Over Planet Namek, first published in Weekly Shōnen Jump magazine on October 6, 1989, as a galactic tyrant feared as the most powerful being in the universe. Despite not appearing until the manga's second half, Frieza is considered to be the most iconic antagonist from the Dragon Ball franchise due to effectively serving as the catalyst of many of the events depicted in the story, such as Goku's arrival on Earth, the Saiyans landing on Earth, and subsequently the main characters going to planet Namek. In his appearances in the manga itself, he is also directly responsible for the murder of Goku's father Bardock, the genocide of the Saiyan race, the death of Vegeta, and the second death of Goku's best friend Krillin, arguably making him Goku's most personal and significant enemy, and the final confrontation between Goku and Frieza has been hailed as one of the most memorable manga and anime battles ever.",
-        "health": "475,000",
-        "attack": "47,000",
-        "defense": "47,000",
-        "kiRestoreSpeed": "44,000",
-        "abilities": [
+        id: "frieza",
+        name: "Frieza",
+        race: "Unknown",
+        gender: "Male",
+        bio: "Frieza, romanized as Freeza in Japanese merchandise, Funimation's English subtitles and Viz Media's release of the manga, is a fictional character in the Dragon Ball manga series created by Akira Toriyama. Frieza makes his debut in Chapter #247: Dark Clouds Swirl Over Planet Namek, first published in Weekly Shōnen Jump magazine on October 6, 1989, as a galactic tyrant feared as the most powerful being in the universe. Despite not appearing until the manga's second half, Frieza is considered to be the most iconic antagonist from the Dragon Ball franchise due to effectively serving as the catalyst of many of the events depicted in the story, such as Goku's arrival on Earth, the Saiyans landing on Earth, and subsequently the main characters going to planet Namek. In his appearances in the manga itself, he is also directly responsible for the murder of Goku's father Bardock, the genocide of the Saiyan race, the death of Vegeta, and the second death of Goku's best friend Krillin, arguably making him Goku's most personal and significant enemy, and the final confrontation between Goku and Frieza has been hailed as one of the most memorable manga and anime battles ever.",
+        health: "475,000",
+        attack: "47,000",
+        defense: "47,000",
+        kiRestoreSpeed: "44,000",
+        abilities: [
             "Eye Laser",
             "Death Beam",
             "Death Ball"
         ],
-        "img": "assets/frieza.png"
+        img: "assets/frieza.png"
     },
     {
         "id": "cell",
