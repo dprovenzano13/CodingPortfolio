@@ -119,72 +119,72 @@
         img: "assets/buu.png"
     },
     {
-        "id": "beerus",
-        "name": "Beerus",
-        "race": "God",
-        "gender": "Male",
-        "bio": "Beerus, the God of Destruction is a character in the Dragon Ball franchise created by Akira Toriyama. Beerus made his first appearance in the 2013 feature film Dragon Ball Z: Battle of Gods as the main antagonist and returned as a supporting character in Dragon Ball Z: Resurrection 'F', as well as one of the main characters in Dragon Ball Super. He is a purple sphynx cat-like god seen wearing traditional Egyptian clothing and ornaments, whose occupation is to maintain balance by destroying planets, in contrast to the Kaiō-shin who create and preserve them. It had been stated that Beerus is a star buster by Whis. Often seen destroying planets at a whim, Beerus' two sole desires are, being quite a gourmet, enjoying the Universe's finest cooking and fighting opponents whom he considers to be worthy. The latter ultimately leads him to look for the Super Saiyan God who turns out to be one of the Saiyans now living on Earth. Eventually, Son Goku, with the help of other Saiyans, transforms into the Super Saiyan God and fights Beerus, just to be defeated by the God of Destruction. Having enjoyed the match, Beerus spares both Goku and the Earth, saying that Goku was the second strongest opponent he ever faced; first being his caretaker and martial arts teacher, Whis.",
-        "health": "600,000",
-        "attack": "60,000",
-        "defense": "60,000",
-        "kiRestoreSpeed": "50,000",
-        "abilities": [
+        id: "beerus",
+        name: "Beerus",
+        race: "God",
+        gender: "Male",
+        bio: "Beerus, the God of Destruction is a character in the Dragon Ball franchise created by Akira Toriyama. Beerus made his first appearance in the 2013 feature film Dragon Ball Z: Battle of Gods as the main antagonist and returned as a supporting character in Dragon Ball Z: Resurrection 'F', as well as one of the main characters in Dragon Ball Super. He is a purple sphynx cat-like god seen wearing traditional Egyptian clothing and ornaments, whose occupation is to maintain balance by destroying planets, in contrast to the Kaiō-shin who create and preserve them. It had been stated that Beerus is a star buster by Whis. Often seen destroying planets at a whim, Beerus' two sole desires are, being quite a gourmet, enjoying the Universe's finest cooking and fighting opponents whom he considers to be worthy. The latter ultimately leads him to look for the Super Saiyan God who turns out to be one of the Saiyans now living on Earth. Eventually, Son Goku, with the help of other Saiyans, transforms into the Super Saiyan God and fights Beerus, just to be defeated by the God of Destruction. Having enjoyed the match, Beerus spares both Goku and the Earth, saying that Goku was the second strongest opponent he ever faced; first being his caretaker and martial arts teacher, Whis.",
+        health: "600,000",
+        attack: "60,000",
+        defense: "60,000",
+        kiRestoreSpeed: "50,000",
+        abilities: [
             "Destruction Sphere",
             "Destruction Gods, Fierce Attack",
             "Hakai"
         ],
-        "img": "assets/beerus.png"
+        img: "assets/beerus.png"
     },
     {
-        "id": "piccolo",
-        "name": "Piccolo",
-        "race": "Namekian",
-        "gender": "Male",
-        "bio": "Piccolo Jr., usually just called Piccolo also known as Ma Junior, is a Namekian and also the final child and reincarnation of the Demon King Piccolo, later becoming the reunification of the Nameless Namekian after fusing with Kami. According to Grand Elder Guru, Piccolo, along with Kami and King Piccolo, are part of the Dragon Clan, who were the original creators of the Dragon Balls. A wise and cunning warrior who was originally a ruthless enemy of Goku, Piccolo later becomes a permanent member of the Dragon Team, largely due to forming a mutual respect to Goku and even more from forming a close bond with Goku's first-born son Gohan.",
-        "health": "230,000",
-        "attack": "25,000",
-        "defense": "25,000",
-        "kiRestoreSpeed": "25,000",
-        "abilities": [
+        id: "piccolo",
+        name: "Piccolo",
+        race: "Namekian",
+        gender: "Male",
+        bio: "Piccolo Jr., usually just called Piccolo also known as Ma Junior, is a Namekian and also the final child and reincarnation of the Demon King Piccolo, later becoming the reunification of the Nameless Namekian after fusing with Kami. According to Grand Elder Guru, Piccolo, along with Kami and King Piccolo, are part of the Dragon Clan, who were the original creators of the Dragon Balls. A wise and cunning warrior who was originally a ruthless enemy of Goku, Piccolo later becomes a permanent member of the Dragon Team, largely due to forming a mutual respect to Goku and even more from forming a close bond with Goku's first-born son Gohan.",
+        health: "230,000",
+        attack: "25,000",
+        defense: "25,000",
+        kiRestoreSpeed: "25,000",
+        abilities: [
             "Special Beam Cannon",
             "Tri-Form",
             "Light Grenade"
         ],
-        "img": "assets/piccolo.png"
+        img: "assets/piccolo.png"
     },
     {
-        "id": "gotenks",
-        "name": "Gotenks",
-        "race": "Human/Saiyan",
-        "gender": "Male",
-        "bio": "Gotenks, previously known as Trunkten, is the immensely powerful result of Trunks and Goten successfully using the Fusion Dance, and the first successful fusion dance character to be seen in the Dragon Ball series. He likes to call himself, The Hero of Justice or Grim Reaper of Justice.",
-        "health": "320,000",
-        "attack": "35,000",
-        "defense": "35,000",
-        "kiRestoreSpeed": "35,000",
-        "abilities": [
+        id: "gotenks",
+        name: "Gotenks",
+        race: "Human/Saiyan",
+        gender: "Male",
+        bio: "Gotenks, previously known as Trunkten, is the immensely powerful result of Trunks and Goten successfully using the Fusion Dance, and the first successful fusion dance character to be seen in the Dragon Ball series. He likes to call himself, The Hero of Justice or Grim Reaper of Justice.",
+        health: "320,000",
+        attack: "35,000",
+        defense: "35,000",
+        kiRestoreSpeed: "35,000",
+        abilities: [
             "Super Saiyan Transformations",
             "Galactic Donut",
             "Super Ghost Kamikaze Attack"
         ],
-        "img": "assets/gotenks.png"
+        img: "assets/gotenks.png"
     },
     {
-        "id": "hit",
-        "name": "Hit",
-        "race": "Unknown",
-        "gender": "Male",
-        "bio": "Hit, renowned as Never-Miss Hit  and as the Legendary Hitman is the legendary assassin of Universe 6. In addition he also later on becomes the leader for Team Universe 6. Hit shows little emotion, likes to challenge himself, and is honorable.",
-        "health": "460,000",
-        "attack": "46,000",
-        "defense": "46,000",
-        "kiRestoreSpeed": "46,000",
-        "abilities": [
+        id: "hit",
+        name: "Hit",
+        race: "Unknown",
+        gender: "Male",
+        bio: "Hit, renowned as Never-Miss Hit  and as the Legendary Hitman is the legendary assassin of Universe 6. In addition he also later on becomes the leader for Team Universe 6. Hit shows little emotion, likes to challenge himself, and is honorable.",
+        health: "460,000",
+        attack: "46,000",
+        defense: "46,000",
+        kiRestoreSpeed: "46,000",
+        abilities: [
             "Time Skip",
             "Death Blow",
             "Vital Point Attack"
         ],
-        "img": "assets/hit.png"
+        img: "assets/hit.png"
     },
     {
         "id": "krillin",
