@@ -13,36 +13,51 @@
 h1, h2{
   text-align: center;
 }
-img{
+.images {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 55%;
+  left: 5%;
+}
+#chair{
   display: block;
   height: 300px;
   margin: 0 auto;
 }
+#gamer {
+  width: 20vw;
+  height: 30vh;
+  border: 5px solid greenyellow;
+}
 ul{
-  width: 100px;
-  height: 266px;
+  display: flex;
+  flex-direction: row;
+  width: 266px;
+  height: 100px;
   border: 3px solid black;
   margin: 0 auto;
   list-style: none;
   padding: 0;
 }
 li{
-  width: 94px;
-  height: 65px;
+  width: 25%;
+  height: 100%;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 #purple{
-  background: rgba(241,63,247,1);
+  background: rgb(229, 164, 232);
 }
 #green{
-  background: rgba(0,253,81,1);
+  background: rgb(0, 210, 67);
 }
 #blue{
-  background: rgba(0,254,255);
+  background: rgb(47, 231, 231);
 }
 #red {
-  background: rgba(224,108,117,1);
+  background: rgb(255, 62, 78);
 }
