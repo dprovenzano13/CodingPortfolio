@@ -14,8 +14,17 @@ header {
   border: 2px solid green;
   width: 100vw;
   height: 8vh;
+  display: flex;
+  align-items: center;
 }
+.logoContainer {
 
+}
+#logo {
+  font-family: 'wasted';
+  font-size: 4vh;
+  padding: 2vw;
+}
 #mainTop {
   border: 2px solid aqua;
   background-image: url('/img/mainMe.jpg');
@@ -23,7 +32,10 @@ header {
   background-repeat: no-repeat;
   width: 100vw;
   height: 92vh;
-  background-position: 100% 100%;
+  background-position: 15vw 100%;
+  background-color: white;
+  box-shadow: inset 500px 0px 80px 8px white ;
+  
 }
 
 #rightTop {
@@ -41,5 +53,5 @@ header {
 
 @font-face {
   font-family: 'wasted';
-  src: url();
+  src: url(/fonts/Wasted.otf);
 }
