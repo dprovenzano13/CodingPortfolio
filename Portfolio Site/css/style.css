@@ -12,9 +12,18 @@
 /*******************************************/
 header {
   border: 2px solid green;
+  width: 100vw;
+  height: 8vh;
 }
+
 #mainTop {
   border: 2px solid aqua;
+  background-image: url('/img/mainMe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 92vh;
+  background-position: 100% 100%;
 }
 
 #rightTop {
@@ -29,3 +38,8 @@ header {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@font-face {
+  font-family: 'wasted';
+  src: url();
+}
