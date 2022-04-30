@@ -10,7 +10,17 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+header {
+  border: 2px solid green;
+}
+#mainTop {
+  border: 2px solid aqua;
+}
 
+#rightTop {
+  border: 2px solid tomato;
+
+}
 #headshot{
   width: 30vh;
   object-fit: contain;
