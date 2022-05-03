@@ -11,7 +11,10 @@
 /* LAYOUT
 /*******************************************/
 
-
+#headshot{
+  width: 30vh;
+  object-fit: contain;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
