@@ -26,26 +26,25 @@ header {
   padding: 2vw;
 }
 #mainTop {
+  display: flex;
   border: 2px solid aqua;
-  background-image: url('/img/mainMe.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 100vw;
   height: 92vh;
-  background-position: 15vw 100%;
-  background-color: white;
-  box-shadow: inset 500px 0px 80px 8px white ;
-  
 }
-
+#leftTop {
+  border: 2px solid yellow;
+  width: 50vw;
+}
 #rightTop {
   border: 2px solid tomato;
+  width: 75vw;
+  background-image: url('/img/mainMe.jpg');
+  background-size: 170vh;
+  background-repeat: none;
+  background-position: -15vw 100%;
+  box-shadow: inset 50px 10px 10px -10px white ; 
+}
 
-}
-#headshot{
-  width: 30vh;
-  object-fit: contain;
-}
 
 /******************************************
 /* ADDITIONAL STYLES
