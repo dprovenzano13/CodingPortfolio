@@ -17,13 +17,22 @@ header {
   display: flex;
   align-items: center;
 }
-.logoContainer {
-
-}
+/* .logoContainer {
+  display: flex;
+  justify-content: space-between;
+} */
 #logo {
   font-family: 'wasted';
   font-size: 4vh;
-  padding: 2vw;
+  padding-left: 2vw;
+}
+nav {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 8vh;
+  margin: 0;
+  padding: 0;
 }
 #mainTop {
   display: flex;
@@ -45,16 +54,34 @@ header {
   background-color: white;
   width: 30vw;
   height: 55vh;
-  box-shadow: 5px 5px 40px;
+  box-shadow: 5px 5px 40px black;
 }
 
 #leftTopContent {
-  display: flex;
+  padding: 2vh;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
-  /* background-color: white; */
+  justify-content: center; */
 }
+.aboutButton {
+  position:relative;
+  top: 25vh;
+  left: 22vw;
+  background-color: rgba(238, 167, 171, 1);
+  padding: 2vh;
+  border-radius: 1vh;
+  box-shadow: 5px 5px 40px black;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.navLinks {
 
+}
+.navLinks a {
+  font-family: 'gotham';
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
@@ -62,4 +89,8 @@ header {
 @font-face {
   font-family: 'wasted';
   src: url(/fonts/Wasted.otf);
+}
+@font-face {
+  font-family: 'gotham';
+  src: url(/fonts/Gotham-Bold.otf);
 }
