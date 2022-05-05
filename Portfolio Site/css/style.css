@@ -11,7 +11,7 @@
 /* LAYOUT
 /*******************************************/
 header {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 100vw;
   height: 8vh;
   display: flex;
@@ -27,24 +27,33 @@ header {
 }
 #mainTop {
   display: flex;
-  border: 2px solid aqua;
+  align-items: center;
+  /* border: 2px solid aqua; */
+  background-image: url('/img/mainMe.jpg');
+  background-position: 0px -50vh;
   width: 100vw;
-  height: 92vh;
+  height: 90vh;
+  background-color: rgb(226,	184,	112);
 }
 #leftTop {
-  border: 2px solid yellow;
-  width: 50vw;
-}
-#rightTop {
-  border: 2px solid tomato;
-  width: 75vw;
-  background-image: url('/img/mainMe.jpg');
-  background-size: 170vh;
-  background-repeat: none;
-  background-position: -15vw 100%;
-  box-shadow: inset 50px 10px 10px -10px white ; 
+  position: absolute;
+  left: 10vw;
+  bottom: 30vh;
+  display: flex;
+  border-radius: 2vh;
+  /* border: 2px solid yellow; */
+  background-color: white;
+  width: 30vw;
+  height: 55vh;
+  box-shadow: 5px 5px 40px;
 }
 
+#leftTopContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: white; */
+}
 
 /******************************************
 /* ADDITIONAL STYLES
