@@ -94,7 +94,7 @@ a {
   color: rgba(238, 167, 171, 1);
   border-radius: 50px;
   background: black;
-  box-shadow: 0px 0px 10px 1px black;
+  box-shadow: 0px 0px 5px 1px black;
 }
 /******************************************
 /* ADDITIONAL STYLES
