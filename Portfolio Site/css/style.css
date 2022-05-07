@@ -10,6 +10,9 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'gotham';
 }
@@ -20,10 +23,6 @@ header {
   display: flex;
   align-items: center;
 }
-/* .logoContainer {
-  display: flex;
-  justify-content: space-between;
-} */
 #logo {
   font-family: 'wasted';
   font-size: 4vh;
@@ -40,7 +39,7 @@ nav {
 #mainTop {
   display: flex;
   align-items: center;
-  /* border: 2px solid aqua; */
+  border: 2px solid aqua;
   background-image: url('/img/mainMe.jpg');
   background-position: 0px -50vh;
   width: 100vw;
@@ -85,7 +84,7 @@ a {
 .goToTop {
   position: fixed;
   left: 90vw;
-  bottom: 18.5vh;
+  bottom: 5vh;
   width: 50px;
   height: 50px;
 }
