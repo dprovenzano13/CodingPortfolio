@@ -41,6 +41,12 @@ nav {
   padding: 16px 32px;
   border-bottom: 3px solid var(--dark);
 }
+#logo {
+  font-family: 'wasted';
+  font-size: 2.1rem;
+  text-decoration: none;
+  color: var(--dark);
+}
 .hamburger {
   display: block;
   position: relative;
@@ -69,18 +75,43 @@ nav {
   background-color: var(--primary);
 }
 .hamburger.isActive span:nth-child(1) {
-  transform: translate(0px, -2px)
+  transform: translate(0px, -2px) rotate(45deg)
 }
+.hamburger.isActive span:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-35px)
+}
+.hamburger.isActive span:nth-child(3) {
+  transform: translate(-3px, 3px) rotate(-45deg)
+}
+.hamburger.isActive:hover span {
+  background-color: var(--primary);
+}
+
 .navLinks, .socialLinks {
   display: none;
+  /* flex: 1 1 0%; */
+  justify-content: flex-end;
 }
-#logo {
-  font-family: 'wasted';
-  font-size: 5vh;
+.navLinks a, .socialLinks a {
   text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.3rem;
   color: var(--dark);
-  /* padding-left: 2vw; */
+  transition: 0.4s;
 }
+.navLinks a.isActive, .navLinks a:hover, .socialLinks a:hover {
+    color: var(--primary);
+}
+@media (min-width: 768px){
+  .hamburger {
+    display: none;
+  }
+  .navLinks, .socialLinks {
+    display: flex;
+  }
+}
+
 /* header {
   width: 100vw;
   height: 8vh;
