@@ -190,14 +190,19 @@ nav {
   align-items: center;
   border: 2px solid salmon;
   width: 100vw;
-  height: 93vh;
+  height: 90vh;
 }
 .skillsContainer {
   display: flex;
-  justify-content: space-around;
-  width: 100vw;
+  align-items: flex-end;
+  justify-content: center;
+  bottom: 20px;
+  width: 60vw;
   height: 93vh;
   border: 2px solid green;
+}
+.skills p {
+
 }
 .skills h2 {
   font-size: 3rem;
@@ -207,6 +212,8 @@ nav {
   border: 2px solid blueviolet;
   width: 13vw;
   height: 20vh;
+  position: relative;
+  bottom: 50px;
 }
 .projects {
   width: 100vw;
