@@ -98,7 +98,7 @@ nav {
 .navLinks a, .socialLinks a {
   text-decoration: none;
   margin: 0 10px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--dark);
   transition: 0.4s;
 }
@@ -113,26 +113,6 @@ nav {
     display: flex;
   }
 }
-
-/* header {
-  width: 100vw;
-  height: 8vh;
-  display: flex;
-  align-items: center;
-}
-#logo {
-  font-family: 'wasted';
-  font-size: 4vh;
-  padding-left: 2vw;
-}
-nav {
-  display: flex;
-  align-items: center;
-  width: 100vw;
-  height: 8vh;
-  margin: 0;
-  padding: 0;
-} */
 #mainTop {
   display: flex;
   align-items: center;
@@ -149,10 +129,9 @@ nav {
   align-items: center;
   justify-content: space-around;
   width: 50vw;
-  height: 60vh;
+  height: 65vh;
   /* border: 2px solid yellow; */
 }
-
 #leftTopContent {
   display: flex;
   flex-direction: column;
@@ -162,7 +141,16 @@ nav {
   width: 30vw;
   height: 50vh;
   box-shadow: 0px 0px 10px var(--dark);
-  padding: 2vh;
+  padding: 3vh;
+  overflow: scroll;
+}
+#leftTop h1 {
+  margin: 10px 0 0 0;
+  font-size: 3rem;
+}
+#leftTop p {
+  margin-top: 25px;
+  font-size: 1.2rem;
 }
 .resumeButton {
   background-color: var(--primary);
@@ -178,14 +166,6 @@ nav {
   text-decoration: none;
   color: var(--dark);
 }
-/*a {
-  color: black;
-  text-decoration: none;
-}
-.navLinks a {
-  display: flex;
-  justify-content: space-around;
-} */
 .goToTop {
   position: fixed;
   left: 90vw;
@@ -203,6 +183,10 @@ nav {
 }
 #toTopBtn:hover {
   background-color: var(--light);
+}
+.skills {
+  width: 100vw;
+  height: 96vh;
 }
 /******************************************
 /* ADDITIONAL STYLES
