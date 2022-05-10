@@ -79,7 +79,7 @@ nav i {
 }
 main {
   height: 1000px;
-  background-image: url(../../images/pink-blue-hair.jpeg);
+  background-image: url(../images/pink-blue-hair.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 -20px;
