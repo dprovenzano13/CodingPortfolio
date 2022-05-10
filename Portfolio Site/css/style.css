@@ -139,7 +139,7 @@ nav {
   display: flex;
   flex-direction: column;
   border-radius: 2vh;
-  /* border: 2px solid orange; */
+  color: var(--dark);
   background-color: var(--clear);
   width: 30vw;
   height: 50vh;
@@ -147,25 +147,25 @@ nav {
   padding: 3vh;
   overflow: scroll;
 }
-#leftTop h1 {
+#leftTop h1, .mainContact h2 {
   margin: 10px 0 0 0;
   font-size: 3rem;
 }
-#leftTop p {
+#leftTop p, .mainContact p {
   margin-top: 25px;
   font-size: 1.2rem;
 }
-.resumeButton {
+.resumeButton, .contactButton {
   background-color: var(--clearPrimary);
   padding: 2vh;
   border-radius: 1vh;
   box-shadow: 5px 5px 40px var(--dark);
   transition: 0.4s;
 }
-.resumeButton:hover {
+.resumeButton:hover, .contactButton:hover {
   background-color: var(--clear);
 }
-#leftTop a {
+#leftTop a, .contactButton {
   text-decoration: none;
   color: var(--dark);
 }
@@ -232,30 +232,34 @@ nav {
   height: 87vh;
   background-color: var(--third); 
 }
-.contact {
+.mainContact {
   background: url(/img/smile.jpg);
   background-position: 0vw -30vh;
   background-size: 190vh;
+  width: 100vw;
+  height: 90vh;
+  padding-right: 11vw;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  width: 100vw;
-  height: 90vh;
-  padding-right: 11vw;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 50vh;
 }
 .contactContent {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-around;
+ height: 35vh;
 }
-.contact h2 {
-  font-size: 3rem;
-}
-.contact p {
-  font-size: 1.5rem;
-}
+/* .contactButton {
+  text-decoration: none;
+  color: var(--dark);
+  background-color: var(--clearPrimary);
+  padding: 15px;
+} */
 footer {
   width: 100vw;
   height: 10vh;
