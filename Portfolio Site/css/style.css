@@ -27,6 +27,7 @@ body {
   --dark: rgb(22, 22, 22);
   --light: rgb(251, 249, 245);
   --clear: rgba(251, 249, 245,.75);
+  --clearPrimary: rgba(255, 140, 145, .9);
 }
 .navContainer {
   max-width: 1280px;
@@ -139,7 +140,7 @@ nav {
   flex-direction: column;
   border-radius: 2vh;
   /* border: 2px solid orange; */
-  background-color: var(--light);
+  background-color: var(--clear);
   width: 30vw;
   height: 50vh;
   box-shadow: 0px 0px 10px var(--dark);
@@ -155,7 +156,7 @@ nav {
   font-size: 1.2rem;
 }
 .resumeButton {
-  background-color: var(--primary);
+  background-color: var(--clearPrimary);
   padding: 2vh;
   border-radius: 1vh;
   box-shadow: 5px 5px 40px var(--dark);
@@ -190,44 +191,51 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid salmon;
+  /* border: 2px solid salmon; */
   width: 100vw;
   height: 87vh;
 }
 .skillsContainer {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   bottom: 20px;
   width: 60vw;
-  height: 87vh;
-  border: 2px solid green;
-}
-.html img, .css img, .javascript img {
-  
-}
-.skillsContainer p {
-  display: flex;
-  flex-direction: row;
-  align-self: center;
+  height: 65vh;
+  /* border: 2px solid green; */
 }
 .skills h2, .portfolio h2, .contact h2 {
   font-size: 3rem;
-  padding-top: 70px;
+  padding-top: 75px;
 }
+
 .skills img {
-  border: 2px solid blueviolet;
+  /* border: 2px solid blueviolet; */
   width: 13vw;
   height: 20vh;
-  position: relative;
   bottom: 50px;
 }
+.skillsInfo {
+  width: 50vw;
+  padding-bottom: 10vh;
+}
+.skills p {
+
+  font-size: 1.6rem;
+}
 .portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   height: 87vh;
   background-color: var(--third); 
 }
 .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   height: 87vh;
   background-color: var(--light); 

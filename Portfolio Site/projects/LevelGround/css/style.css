@@ -1,0 +1,208 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  font-family: Roboto, sans-serif;
+}
+header {
+  background: rgb(102, 118, 138);
+  width: 100%;
+  height: 66.39px;
+}
+footer {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background: rgb(24, 31, 41);
+  padding: 3%;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+nav ul {
+  float: left;
+  width: 45%;
+  margin: 0;
+  padding-top: 1.5%;
+}
+nav ul li {
+  float: left;
+  width: 18%;
+  margin-left: 2%;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav img {
+  float: left;
+  text-align: center;
+  width: 3%;
+  position: relative;
+  left: 15px;
+}
+nav > a {
+  float: right;
+  padding: 10px;
+  margin-top: .7%;
+  margin-right: 6%;
+  background: white;
+  text-decoration: none;
+  color: rgb(102, 118, 138);
+  border-radius: 5px 5px 5px 5px;
+}
+main {
+  float: left;
+  background: rgb(102, 118, 138);
+  color: white;
+  text-align: center;
+  padding: 8%;
+}
+main h1 {
+  font-size: 300%;
+}
+main p {
+  padding: 0 11%;
+}
+main i {
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: relative;
+  right: 25px;
+}
+main i::before {
+  position: relative;
+  top: 10px;
+  left: 1px;
+}
+main span {
+  position: relative;
+  top: 10px; right: 25px;
+}
+main a {
+  color: white;
+  text-decoration: none;
+}
+.why, .volunteer {
+  float: left;
+  text-align: center;
+  padding: 10%;
+}
+.why p, .volunteer p {
+  font-size: 150%;
+  color: rgb(55, 60, 70);
+  padding: 0 15%;
+}
+.why h2, .volunteer h2 {
+  font-size: 250%;
+}
+.two-squares {
+  float: left;
+  background: rgb(220, 223, 226);
+}
+.squares {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 5%;
+}
+.squares img{
+  width: 60%;
+}
+.squares p {
+  padding: 2% 10%;
+  color: rgb(55, 60, 70);
+  margin-bottom: 10%;
+}
+.squares a {
+  text-decoration: none;
+  color: rgb(55, 60, 70);
+  border: 1px solid rgb(156, 156, 156);
+  padding: 2% 7%;
+  font-weight: bold;
+}
+.left {
+  padding-right: 0;
+}
+.right {
+  padding-left: 0;
+}
+.volunteer a {
+  border: 1px solid rgb(156, 156, 156);
+  padding: 1% 3%;
+  color: rgb(55, 60, 70);
+  text-decoration: none;
+  position: relative;
+  top: 40px;
+}
+footer a, .contact, footer p {
+  color: white;
+}
+footer li {
+  list-style: none;
+  display: inline;
+  padding-right: 2%;
+}
+footer a {
+  text-decoration: none;
+}
+footer h6 {
+  color: rgb(99, 111, 129);
+}
+footer p {
+  border-top: 2px solid white;
+  clear: both;
+  padding-top: 1%;
+}
+.bottom-links {
+  float: left;
+  width: 80%;
+}
+.bottom-links h6 {
+  font-size: 100%;
+  margin: 0;
+}
+.bottom-links i {
+  font-size: 2em;
+  padding: 0 2% 2% 0;
+}
+.contact {
+  float: right;
+  width: 20%;
+  height: 200px;
+
+}
+.contact h5 {
+  font-size: 100%;
+  margin: 0 0 5% 0;
+}
+address a:last-child {
+  font-style: normal;
+  font-weight: bold;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

@@ -1,0 +1,253 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+font-size: 70%;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+main, .options, .momentum, .stylist, .ten-percent-off, .look-book {
+  float: left;
+  width: 100%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+nav {
+  height: 50px;
+}
+nav ul {
+  height: 50px;
+  margin: 0;
+  padding: 1%;
+  float: left;
+  width: 70%;
+  position: relative;
+}
+nav ul li {
+  float: left;
+  width: 15%;
+  text-align: center;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+  
+}
+nav img {
+  float: left;
+  width: 5%;
+  margin: 0 5%;
+}
+nav i {
+  float: left;
+  width: 5%;
+  margin-top: 1%;
+  font-size: 1.4em;
+  color: rgb(112, 112, 112);
+}
+main {
+  height: 1000px;
+  background-image: url(../../images/pink-blue-hair.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -20px;
+}
+.mainContent {
+  float: left;
+  width: 100%%;
+  height: 100%;
+  margin: 15%;
+}
+.mainContent h1 {
+  float: left;
+  width: 100%;
+  font-size: 7em;
+  color: white;
+  margin: 3% 0;
+}
+.mainContent p {
+  float: left;
+  width: 100%;
+  color: white;
+}
+.mainContent > a {
+  float: left;
+  color: white;
+  background: black;
+  border: 1px solid black;
+  padding: 2%;
+  text-decoration: none;
+  margin: 3% 0;
+}
+.mainContent > span {
+  float: left;
+  color: white;
+  transform: rotate(90deg);
+  position: relative;
+  left: 90%;
+}
+.first-visit {
+  float: left;
+  width: 30%;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  padding: 6% 2%;
+  margin-top: 4%;
+}
+.first-visit p {
+  font-size: 1.2em;
+  line-height: 2em;
+}
+.first-visit a {
+  background: white;
+  color: black;
+  text-decoration: none;
+  padding: 4%;
+}
+.black-box {
+  float: left;
+  width: 100%;
+}
+.options {
+  float: left;
+  width: 100%;
+}
+.options {
+  float: left;
+  width: 100%;
+  padding: 4%;
+}
+.option {
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+  padding: 2%;
+}
+.momentum {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background: rgb(243	244	246	);
+}
+.momentum h2 {
+  float: left;
+  text-align: left;
+
+  margin: 0;
+  font-size: 2em;
+}
+.momentum p {
+  float: left;
+}
+.momentum a {
+  float: left;
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 5%;
+}
+.left-momentum {
+  float: left;
+  width: 50%;
+  padding: 5% 0 5% 15%;
+  font-size: 1.7em;
+}
+.momentum img {
+  float: left;
+  width: 50%;
+  padding: 5%;
+}
+.all-stylist {
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+}
+.all-stylist img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+.all-stylist h5 {
+  margin-top: 0;
+  margin-bottom: 1%;
+  font-size: 1.4em;
+  color: white;
+}
+.all-stylist span {
+  color: white;
+}
+.stylist-box {
+  width: 50%;
+  background: black;
+  margin: 0 0 0 25%;
+  padding: 5%;
+  position: relative;
+  bottom: 50px;
+}
+.ten-percent-off {
+  background-image: url(../../images/blonde_hair.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  background-position: 0 20%;
+}
+.ten-content {
+  float: left;
+  width: 50%;
+  font-size: 62.5%;
+  padding: 5%;
+  margin-top: 4%;
+}
+.ten-content h4 {
+  font-size: 3em;
+}
+.ten-content p {
+  font-size: 4em;
+  line-height: 2em;
+}
+.ten-content a {
+  float: left;
+  font-size: 2em;
+  text-decoration: none;
+  background: black;
+  color: white;
+  margin-top: 2%;
+  padding: 5%;
+}
+.look-book h2 {
+  font-size: 3em;
+  text-align: center;
+}
