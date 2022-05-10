@@ -18,6 +18,7 @@ html {
 }
 body {
   font-family: 'gotham';
+  margin-top: 65.3px;
 }
 :root {
   --primary: rgba(255, 140, 145, 1);
@@ -25,6 +26,7 @@ body {
   --third: rgba(255, 213, 145);
   --dark: rgb(22, 22, 22);
   --light: rgb(251, 249, 245);
+  --clear: rgba(251, 249, 245,.75);
 }
 .navContainer {
   max-width: 1280px;
@@ -40,9 +42,9 @@ nav {
   left: 0;
   right: 0;
   z-index: 99;
-  background-color: var(--light);
-  padding: 16px 32px;
-  /* border-bottom: 3px solid var(--dark); */
+  background-color: var(--clear);
+  padding: 7px 32px;
+  border-bottom: 3px solid var(--dark);
 }
 #logo {
   font-family: 'wasted';
@@ -118,9 +120,9 @@ nav {
   display: flex;
   align-items: center;
   background-image: url('/img/mainMe.jpg');
-  background-position: 0px -45vh;
+  background-position: 0px -50vh;
   width: 100vw;
-  height: 93vh;
+  height: 87vh;
   background-color: rgb(226,	184,	112);
 }
 #leftTop {
@@ -190,23 +192,28 @@ nav {
   align-items: center;
   border: 2px solid salmon;
   width: 100vw;
-  height: 90vh;
+  height: 87vh;
 }
 .skillsContainer {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
   bottom: 20px;
   width: 60vw;
-  height: 93vh;
+  height: 87vh;
   border: 2px solid green;
 }
-.skills p {
-
+.html img, .css img, .javascript img {
+  
 }
-.skills h2 {
+.skillsContainer p {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+.skills h2, .portfolio h2, .contact h2 {
   font-size: 3rem;
-  margin: 2vh;
+  padding-top: 70px;
 }
 .skills img {
   border: 2px solid blueviolet;
@@ -215,10 +222,15 @@ nav {
   position: relative;
   bottom: 50px;
 }
-.projects {
+.portfolio {
   width: 100vw;
-  height: 93vh;
-  background-color: var(--secondary); 
+  height: 87vh;
+  background-color: var(--third); 
+}
+.contact {
+  width: 100vw;
+  height: 87vh;
+  background-color: var(--light); 
 }
 /******************************************
 /* ADDITIONAL STYLES
