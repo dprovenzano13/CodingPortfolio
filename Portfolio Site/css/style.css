@@ -96,7 +96,6 @@ nav {
 
 .navLinks, .socialLinks {
   display: none;
-  /* flex: 1 1 0%; */
   justify-content: flex-end;
 }
 .navLinks a, .socialLinks a {
@@ -106,7 +105,7 @@ nav {
   color: var(--dark);
   transition: 0.4s;
 }
-.navLinks a.isActive, .navLinks a:hover, .socialLinks a:hover {
+.navLinks a.isActive, .navLinks a:hover, .socialLinks a:hover, footer a:hover {
     color: var(--primary);
 }
 @media (min-width: 768px){
@@ -151,8 +150,11 @@ nav {
   margin: 10px 0 0 0;
   font-size: 3rem;
 }
+#leftTop span {
+  font-size: 1.6rem;
+  color: var(--secondary);
+}
 #leftTop p, .mainContact p {
-  margin-top: 25px;
   font-size: 1.2rem;
 }
 .resumeButton, .contactButton {
@@ -253,16 +255,26 @@ nav {
 }
 .contactContent {
  height: 35vh;
+ width: 40vw;
+ align-items: center;
 }
-/* .contactButton {
-  text-decoration: none;
-  color: var(--dark);
-  background-color: var(--clearPrimary);
-  padding: 15px;
-} */
+
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   width: 100vw;
   height: 10vh;
+  padding: 10px;
+
+}
+footer a {
+  color: var(--dark);
+  transition: 0.4s;
+}
+footer span {
+  color: var(--secondary);
 }
 /******************************************
 /* ADDITIONAL STYLES
