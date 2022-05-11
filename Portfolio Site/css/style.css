@@ -257,6 +257,7 @@ nav {
  height: 35vh;
  width: 40vw;
  align-items: center;
+ justify-content: space-around;
 }
 
 footer {
