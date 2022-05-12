@@ -18,7 +18,7 @@ html {
 }
 body {
   font-family: 'gotham';
-  margin-top: 40.5px;
+  margin-top: 44.59px;
 }
 :root {
   --primary: rgba(255, 140, 145, 1);
@@ -168,7 +168,7 @@ nav {
 .resumeButton:hover, .contactButton:hover {
   background-color: var(--clear);
 }
-#leftTop a, .contactButton {
+#leftTop a, .contactButton, .projects a {
   text-decoration: none;
   color: var(--dark);
 }
@@ -224,7 +224,6 @@ nav {
   padding-bottom: 10vh;
 }
 .skills p {
-
   font-size: 1.6rem;
 }
 .portfolio {
@@ -232,19 +231,44 @@ nav {
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 90vh;
+  height: 95vh;
   background-color: var(--third);
 }
 .topProjects, .bottomProjects {
   display: flex;
   justify-content: space-around;
   width: 90vw;
-  height: auto;
-  border: 2px solid red;
+  height: 35vh;
+}
+.portfolio h2 {
+  padding-bottom: 5vh;
+}
+.projects span:hover {
+  color: var(--light);
+
+  /* border-bottom: 2px solid var(--primary); */
+  transition: .4s;
+}
+.projects {
+  width: 25vw;
+  height: 29vh;
 }
 .projects video {
-  width: 29vw;
-  height: 32vh;
+  width: 25vw;
+  height: 29vh;
+  object-fit: cover;
+  border: 3px solid var(--dark);
+  border-radius: 20px;
+  opacity: .75;
+}
+.projects video:hover {
+  transition: ease-in 0.4s;
+  opacity: 1;
+  box-shadow: 0px 0px 10px 1px var(--light);
+}
+.projects span {
+  display: block;
+  text-align: center;
 }
 .mainContact {
   background: url(/img/smile.jpg);
@@ -269,7 +293,10 @@ nav {
  height: 35vh;
  width: 40vw;
  align-items: center;
- justify-content: space-around;
+ justify-content: center;
+}
+.contactContent p {
+  padding-top: 20px;
 }
 
 footer {

@@ -133,6 +133,7 @@ nav i {
   width: 60%;
   margin-top: 3%;
   padding: 0 10%;
+
 }
 .about h2 {
   font-size: 6em;
@@ -142,6 +143,12 @@ nav i {
   font-size: 2em;
   color: rgb(76, 76, 103);
   clear: both;
+}
+.aboutParagraph {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  margin: 10px 0px;
 }
 .about a {
   float: left;
