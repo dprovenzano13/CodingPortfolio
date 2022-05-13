@@ -35,6 +35,7 @@ fetch(BREEDS_URL)
                 return res.json(); // Get a JSON message back
             })
             .then(data => {
+                img.src = ""
                 img.src = data.message // Extract message from JSON and attach to img tag as new source
             })
     }
