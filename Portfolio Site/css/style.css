@@ -106,7 +106,7 @@ nav {
   color: var(--dark);
   transition: 0.4s;
 }
-.navLinks a.isActive, .navLinks a:hover, .socialLinks a:hover, footer a:hover {
+.navLinks a.isActive, .navLinks a:hover, .socialLinks a:hover, footer a:hover, .contactLinks a:hover {
     color: var(--primary);
 }
 @media (min-width: 768px){
@@ -135,7 +135,7 @@ nav {
   height: 65vh;
   /* border: 2px solid yellow; */
 }
-#leftTopContent, .contactContent {
+#leftTopContent {
   display: flex;
   flex-direction: column;
   border-radius: 2vh;
@@ -276,29 +276,55 @@ nav {
   background-size: 190vh;
   width: 100vw;
   height: 90vh;
-  padding-right: 11vw;
+  border: 44.59px solid var(--light);
+  /* padding-right: 11vw; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
 }
+
 .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  height: 50vh;
+  justify-content: center;
+  height: 90vh;
 }
 .contactContent {
- height: 35vh;
- width: 40vw;
- align-items: center;
- justify-content: center;
+  background-color: var(--clear);
+  height: 90vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: -1px;
+  padding: 30px;
 }
 .contactContent p {
   padding-top: 20px;
+  text-align: center;
 }
-
+.contactLinks {
+  padding-top: 30px;
+}
+.contactLinks i {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+  text-align: center;
+}
+.contactLinks a {
+  text-decoration: none;
+  font-family: 'gotham';
+}
+.contactLinks li {
+  list-style: none;
+  align-items: center;
+  color: var(--primary);
+}
 footer {
   display: flex;
   flex-direction: column;
@@ -309,7 +335,7 @@ footer {
   padding: 10px;
 
 }
-footer a {
+footer a, .contactLinks a {
   color: var(--dark);
   transition: 0.4s;
 }
@@ -319,11 +345,6 @@ footer span {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-@font-face {
-  font-family: 'wasted';
-  src: url(/fonts/Wasted.otf);
-}
 @font-face {
   font-family: 'gotham';
   src: url(/fonts/Gotham-Bold.otf);
