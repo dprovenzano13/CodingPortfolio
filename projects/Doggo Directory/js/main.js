@@ -101,3 +101,4 @@ fetch(BREEDS_URL)
             document.getElementById('funFact').innerHTML = `Additional info: ${this.fact}`
         }
     }
+
