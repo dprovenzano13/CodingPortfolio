@@ -68,7 +68,7 @@ body {
     /* border: 2px solid green; */
   }
   .leftTopContent {
-    height: 33vh;
+    height: 34vh;
     background-color: var(--clear);
     border-radius: 5px;
     padding: 20px;
@@ -96,8 +96,8 @@ body {
     width: 190vw;
     object-fit: cover;
     position: relative;
-    bottom: 18vh;
-    left: -53vw;
+    bottom: 19vh;
+    left: -54vw;
   }
   .resumeButton {
     background-color: var(--clearPrimary);
