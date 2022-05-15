@@ -48,7 +48,7 @@ body {
   }
   #mainTop, .skills {
     width: 100vw;
-    height: 85vh;
+    height: 100vh;
     /* padding-top: 44.59px; */
     display: flex;
     flex-direction: column;
