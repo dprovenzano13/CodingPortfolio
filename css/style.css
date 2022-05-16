@@ -161,6 +161,11 @@ body {
     border-radius: 20px;
     opacity: .75;
   }
+  .projects video:hover {
+    transition: ease-in 0.4s;
+    opacity: 1;
+    box-shadow: 0px 0px 10px 1px var(--light);
+  }
   .projects span {
     display: block;
     text-align: center;
@@ -171,11 +176,6 @@ body {
   .projects a {
     text-decoration: none;
     color: var(--dark);
-  }
-  .projects video:hover {
-    transition: ease-in 0.4s;
-    opacity: 1;
-    box-shadow: 0px 0px 10px 1px var(--light);
   }
   .mainContact {
     background: var(--light);
@@ -190,6 +190,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-align: justify;
   }
   .contact li {
     list-style: none;
@@ -226,7 +227,26 @@ body {
   }
 }
 
-
+@media screen and (min-width: 768px) {
+  .leftTopContent {
+    font-size: 1.35rem;
+  }
+  .mainImg img {
+    width: 150vw;
+    bottom: 24.5vh;
+    left: -35vw;
+  }
+  .skillsInfo {
+    font-size: 1.5rem;
+  }
+  .projects video {
+    height: 14vh;
+  }
+  .contactContent {
+    font-size: 1.5rem;
+    width: 60vw;
+  }
+}
 
 .navContainer {
   max-width: 1280px;
