@@ -168,9 +168,6 @@ body {
   .projects span:hover, .contact a {
     color: var(--primary);
   }
-  .portfolio h2 {
-    /* padding-bottom: 5vh; */
-  }
   .projects a {
     text-decoration: none;
     color: var(--dark);
@@ -210,6 +207,22 @@ body {
   .contact i {
     padding-right: 5px;
     color: var(--secondary);
+  }
+  footer {
+    display: none;
+  }
+  #toTopBtn {
+    font-size: 35px;
+    color: var(--secondary);
+    border-radius: 50px;
+    background: var(--dark);
+    box-shadow: 0px 0px 5px 1px var(--light);
+    position: relative;
+    left: 88vw;
+    bottom: 3vh;
+  }
+  #toTopBtn:hover {
+    background-color: var(--light);
   }
 }
 
