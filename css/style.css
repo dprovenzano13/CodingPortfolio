@@ -46,7 +46,7 @@ body {
     padding: 7px 25px;
     border-bottom: 3px solid var(--dark);
   }
-  #mainTop, .skills, .portfolio {
+  #mainTop, .skills, .portfolio, .mainContact {
     width: 100vw;
     height: 80vh;
     /* padding-top: 44.59px; */
@@ -125,12 +125,9 @@ body {
   .skillsImgContainer img {
     width: 30vw;
   }
-  .skills h2, .portfolio h2 {
+  .skills h2, .portfolio h2, .contact h2 {
     font-size: 3rem;
     padding-top: 65px;
-  }
-  .portfolio {
-
   }
   .projectsContainer {
     display: flex;
@@ -168,6 +165,9 @@ body {
     display: block;
     text-align: center;
   }
+  .projects span:hover, .contact a {
+    color: var(--primary);
+  }
   .portfolio h2 {
     padding-bottom: 5vh;
   }
@@ -179,6 +179,37 @@ body {
     transition: ease-in 0.4s;
     opacity: 1;
     box-shadow: 0px 0px 10px 1px var(--light);
+  }
+  .mainContact {
+    background: var(--light);
+    height: 55vh;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .contactContent {
+    height: 50vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contact li {
+    list-style: none;
+    font-size: .90rem;
+    padding-bottom: 8px;
+  }
+  .contact a {
+    text-decoration: none;
+    color: var(--dark);
+  }
+  .contact h2 {
+    font-size: 2.5rem;
+    padding-top: 65px;
+  }
+  .contact i {
+    padding-right: 5px;
+    color: var(--secondary);
   }
 }
 
