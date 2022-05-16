@@ -169,7 +169,7 @@ body {
     color: var(--primary);
   }
   .portfolio h2 {
-    padding-bottom: 5vh;
+    /* padding-bottom: 5vh; */
   }
   .projects a {
     text-decoration: none;
