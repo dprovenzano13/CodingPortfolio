@@ -29,12 +29,61 @@ body {
   --clear: rgba(251, 249, 245,.75);
   --clearPrimary: rgba(255, 140, 145, .9);
 }
-@media all and (min-width: 375px){
+ @media all and (min-width: 375px){
   .hamburger {
-    display: none;
+    display: block;
+    position: relative;
+    z-index: 1;
+    user-select: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
   }
+  .hamburger span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background-color: var(--dark);
+    border-radius: 6px;
+    z-index: 1;
+    transform-origin: 0 0;
+    transition: 0.4s;
+  }
+  .hamburger:hover span:nth-child(2) {
+    transform: translateX(-10px);
+    background-color: var(--primary);
+  }
+  .hamburger.isActive span:nth-child(1) {
+    transform: translate(0px, -2px) rotate(45deg)
+  }
+  .hamburger.isActive span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(-35px)
+  }
+  .hamburger.isActive span:nth-child(3) {
+    transform: translate(-3px, 3px) rotate(-45deg)
+  }
+  .hamburger.isActive:hover span {
+    background-color: var(--primary);
+  }
+  
   .navLinks, .socialLinks {
-    display: flex;
+    display: none;
+    justify-content: flex-end;
+  }
+  .navLinks a, .socialLinks a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+    color: var(--dark);
+    transition: 0.4s;
+  }
+  .navLinks a.isActive, .navLinks a:hover, .socialLinks a:hover, footer a:hover, .contactLinks a:hover {
+      color: var(--primary);
   }
   nav {
     position: fixed;
@@ -231,6 +280,10 @@ body {
   .leftTopContent {
     font-size: 1.35rem;
   }
+  .resumeButton {
+    padding: 18px;
+    font-size: 1.5rem;
+  }
   .mainImg img {
     width: 150vw;
     bottom: 24.5vh;
@@ -248,6 +301,322 @@ body {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .leftTopContent {
+    font-size: 1.8rem;
+  }
+  .resumeButton {
+    padding: 25px;
+    font-size: 2rem;
+  }
+  .mainImg img {
+    width: 150vw;
+    bottom: 24.5vh;
+    left: -35vw;
+  }
+  .skillsInfo {
+    font-size: 1.8rem;
+  }
+  .projects video {
+    height: 14vh;
+  }
+  .contactContent {
+    font-size: 2rem;
+    width: 60vw;
+  }
+  .contactLinks a {
+    font-size: 1.5rem;
+  }
+  .contactLinks i {
+    font-size: 1.5rem;
+  }
+  .contact h2 {
+    font-size: 3.5rem;
+  }
+  #toTopBtn {
+    font-size: 80px;
+    bottom: 85px;
+  }
+}
+
+@media screen and (min-width: 1025px){
+  .hamburger {
+    display: none;
+  }
+  .navLinks, .socialLinks {
+    display: flex;
+  }
+  /* .leftTop {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    padding: 0px;
+    border: 2px solid fuchsia;
+  }
+  .leftTopContent {
+    z-index: 2;
+    width: 35vw;
+    height: 50vh;
+    position: absolute;
+    left: 5vw;
+    bottom: 20vh;
+    font-size: 1.2rem;
+  }
+  .leftTopContent h1 {
+    margin: 0px 0px 10px 0px;
+  }
+  .leftTopContent span {
+    color: var(--secondary);
+  }
+  .resumeButton {
+    z-index: 2;
+    position: absolute;
+    background-color: var(--primary);
+  }
+  */.mainImg {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    border-radius: 0px;
+    box-shadow: none;
+    /* border: 2px solid blue; */
+  }
+  .mainImg img {
+    display: none;
+    /* width: 120vw;
+    height: 100vw;
+    object-fit: cover;
+    object-position: top;
+    position: relative;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: -20vh;
+    
+    z-index: 1; */
+  }
+  /* .resumeButton {
+    position: absolute;
+    bottom: 10vh;
+    left: 14vw
+  }  */
+  #mainTop {
+  background-image: url('/img/mainMe.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 87vh;
+}
+.leftTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 70vh;
+}
+.leftTopContent {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2vh;
+  color: var(--dark);
+  background-color: var(--clear);
+  width: 30vw;
+  height: 50vh;
+  box-shadow: 0px 0px 10px var(--dark);
+  padding: 3vh;
+  overflow: scroll;
+}
+.leftTop h1, .mainContact h2 {
+  margin: 10px 0 0 0;
+  font-size: 3rem;
+}
+.leftTop span {
+  font-size: 1.6rem;
+  color: var(--secondary);
+}
+.leftTop p, .mainContact p {
+  font-size: 1.2rem;
+}
+.resumeButton, .contactButton {
+  background-color: var(--clearPrimary);
+  padding: 2vh;
+  border-radius: 1vh;
+  box-shadow: 5px 5px 40px var(--dark);
+  transition: 0.4s;
+}
+.resumeButton:hover, .contactButton:hover {
+  background-color: var(--clear);
+}
+#leftTop a, .contactButton, .projects a {
+  text-decoration: none;
+  color: var(--dark);
+}
+.goToTop {
+  position: fixed;
+  left: 90vw;
+  bottom: 5vh;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+#toTopBtn .goToTop{
+  font-size: 60px;
+  color: var(--secondary);
+  border-radius: 50px;
+  background: var(--dark);
+  box-shadow: 0px 0px 5px 1px var(--light);
+}
+#toTopBtn:hover {
+  background-color: var(--light);
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 87vh;
+}
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 20px;
+  width: 60vw;
+  height: 65vh;
+}
+.skills h2, .portfolio h2 {
+  font-size: 3rem;
+  padding-top: 65px;
+}
+
+.skills img {
+  width: 13vw;
+  height: 20vh;
+  bottom: 50px;
+}
+.skillsInfo {
+  width: 50vw;
+  padding-bottom: 10vh;
+}
+.skills p {
+  font-size: 1.6rem;
+}
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 95vh;
+  background-color: var(--third);
+}
+.topProjects, .bottomProjects {
+  display: flex;
+  justify-content: space-around;
+  width: 90vw;
+  height: 35vh;
+}
+.portfolio h2 {
+  padding-bottom: 5vh;
+}
+.projects span:hover {
+  color: var(--light);
+  transition: .4s;
+}
+.projects {
+  width: 25vw;
+  height: 29vh;
+}
+.projects video {
+  width: 25vw;
+  height: 29vh;
+  object-fit: cover;
+  border: 3px solid var(--dark);
+  border-radius: 20px;
+  opacity: .75;
+}
+.projects video:hover {
+  transition: ease-in 0.4s;
+  opacity: 1;
+  box-shadow: 0px 0px 10px 1px var(--light);
+}
+.projects span {
+  display: block;
+  text-align: center;
+}
+.mainContact {
+  background: url(/img/smile.jpg);
+  background-position: 0vw -30vh;
+  background-size: 190vh;
+  width: 100vw;
+  height: 90vh;
+  border: 44.59px solid var(--light);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.contactContent {
+  background-color: var(--clear);
+  height: 90vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: -1px;
+  padding: 30px;
+}
+.contactContent p {
+  padding-top: 20px;
+  text-align: center;
+}
+.contactLinks {
+  padding-top: 30px;
+}
+.contactLinks i {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+  text-align: center;
+}
+.contactLinks a {
+  text-decoration: none;
+  font-family: 'gotham';
+}
+.contactLinks li {
+  list-style: none;
+  align-items: center;
+  color: var(--primary);
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  padding: 10px;
+
+}
+footer a, .contactLinks a {
+  color: var(--dark);
+  transition: 0.4s;
+}
+footer span {
+  color: var(--secondary);
+}
+}
 .navContainer {
   max-width: 1280px;
   margin: 0 auto;
@@ -255,76 +624,11 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-/* nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 99;
-  background-color: var(--clear);
-  padding: 7px 32px;
-  border-bottom: 3px solid var(--dark);
-} */
 #logo {
   font-family: 'gotham', 'sans-serif';
   font-size: 1.2rem;
   text-decoration: none;
   color: var(--dark);
-}
-.hamburger {
-  display: block;
-  position: relative;
-  z-index: 1;
-  user-select: none;
-  appearance: none;
-  border: none;
-  outline: none;
-  background: none;
-  cursor: pointer;
-}
-.hamburger span {
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-  background-color: var(--dark);
-  border-radius: 6px;
-  z-index: 1;
-  transform-origin: 0 0;
-  transition: 0.4s;
-}
-.hamburger:hover span:nth-child(2) {
-  transform: translateX(-10px);
-  background-color: var(--primary);
-}
-.hamburger.isActive span:nth-child(1) {
-  transform: translate(0px, -2px) rotate(45deg)
-}
-.hamburger.isActive span:nth-child(2) {
-  opacity: 0;
-  transform: translateX(-35px)
-}
-.hamburger.isActive span:nth-child(3) {
-  transform: translate(-3px, 3px) rotate(-45deg)
-}
-.hamburger.isActive:hover span {
-  background-color: var(--primary);
-}
-
-.navLinks, .socialLinks {
-  display: none;
-  justify-content: flex-end;
-}
-.navLinks a, .socialLinks a {
-  text-decoration: none;
-  margin: 0 10px;
-  font-size: 1rem;
-  color: var(--dark);
-  transition: 0.4s;
-}
-.navLinks a.isActive, .navLinks a:hover, .socialLinks a:hover, footer a:hover, .contactLinks a:hover {
-    color: var(--primary);
 }
 
 /* #mainTop {
