@@ -494,16 +494,14 @@ body {
 .topProjects, .bottomProjects {
   flex-direction: row;
   justify-content: space-around;
-  width: 100vw;
+  width: 80vw;
   height: 30vh;
 }
 .projectsContainer {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  width: 80;
 }
 .portfolio h2 {
-  padding-bottom: 0vh;
+  padding-bottom: 1vh;
 }
 .projects span:hover {
   color: var(--light);
