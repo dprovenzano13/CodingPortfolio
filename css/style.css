@@ -186,7 +186,6 @@ body {
     width: 100vw;
     height: 80vh;
     padding: 15px;
-    /* border: 2px solid salmon; */
   }
   .topProjects, .bottomProjects {
     width: 45vw;
@@ -261,15 +260,20 @@ body {
   footer {
     display: none;
   }
+  .goToTop {
+    position: fixed;
+    left: 85vw;
+    bottom: 2vh;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+  }
   #toTopBtn {
-    font-size: 35px;
+    font-size: 50px;
     color: var(--secondary);
     border-radius: 50px;
     background: var(--dark);
     box-shadow: 0px 0px 5px 1px var(--light);
-    position: relative;
-    left: 88vw;
-    bottom: 3vh;
   }
   #toTopBtn:hover {
     background-color: var(--light);
@@ -404,26 +408,18 @@ body {
   background-image: url('/img/mainMe.jpg');
   background-size: cover;
   background-position: center;
+  align-items: flex-start;
   width: 100vw;
   height: 87vh;
 }
 .leftTop {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  width: 100vw;
+  width: 60vw;
   height: 70vh;
 }
 .leftTopContent {
-  display: flex;
-  flex-direction: column;
   border-radius: 2vh;
-  color: var(--dark);
-  background-color: var(--clear);
-  width: 30vw;
+  width: 40vw;
   height: 50vh;
-  box-shadow: 0px 0px 10px var(--dark);
   padding: 3vh;
   overflow: scroll;
 }
@@ -433,47 +429,30 @@ body {
 }
 .leftTop span {
   font-size: 1.6rem;
-  color: var(--secondary);
 }
 .leftTop p, .mainContact p {
   font-size: 1.2rem;
 }
-.resumeButton, .contactButton {
-  background-color: var(--clearPrimary);
+.resumeButton {
   padding: 2vh;
-  border-radius: 1vh;
-  box-shadow: 5px 5px 40px var(--dark);
-  transition: 0.4s;
 }
-.resumeButton:hover, .contactButton:hover {
+.resumeButton:hover {
   background-color: var(--clear);
 }
-#leftTop a, .contactButton, .projects a {
-  text-decoration: none;
-  color: var(--dark);
-}
 .goToTop {
-  position: fixed;
   left: 90vw;
   bottom: 5vh;
   width: 60px;
   height: 60px;
-  border-radius: 50px;
 }
 #toTopBtn .goToTop{
   font-size: 60px;
-  color: var(--secondary);
-  border-radius: 50px;
-  background: var(--dark);
-  box-shadow: 0px 0px 5px 1px var(--light);
 }
 #toTopBtn:hover {
   background-color: var(--light);
+  transition: 0.4s;
 }
 .skills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100vw;
   height: 87vh;
 }
@@ -486,39 +465,45 @@ body {
   width: 60vw;
   height: 65vh;
 }
+.skillsImgContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60vw;
+}
 .skills h2, .portfolio h2 {
   font-size: 3rem;
   padding-top: 65px;
 }
-
 .skills img {
   width: 13vw;
   height: 20vh;
-  bottom: 50px;
 }
 .skillsInfo {
-  width: 50vw;
+  width: 55vw;
   padding-bottom: 10vh;
-}
-.skills p {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 .portfolio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
-  height: 95vh;
-  background-color: var(--third);
+  /* width: 100vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: center; */
+
 }
 .topProjects, .bottomProjects {
-  display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  width: 90vw;
-  height: 35vh;
+  width: 100vw;
+  height: 30vh;
+}
+.projectsContainer {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 .portfolio h2 {
-  padding-bottom: 5vh;
+  padding-bottom: 0vh;
 }
 .projects span:hover {
   color: var(--light);
@@ -526,11 +511,11 @@ body {
 }
 .projects {
   width: 25vw;
-  height: 29vh;
+  height: 25vh;
 }
 .projects video {
-  width: 25vw;
-  height: 29vh;
+  width: 23vw;
+  height: 23vh;
   object-fit: cover;
   border: 3px solid var(--dark);
   border-radius: 20px;
@@ -557,7 +542,6 @@ body {
   align-items: flex-end;
   justify-content: center;
 }
-
 .contact {
   display: flex;
   flex-direction: column;
