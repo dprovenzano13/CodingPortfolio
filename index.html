@@ -1,146 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="This is where your description goes">
-    	<meta name="keywords" content="one, two, three">
-		<meta content="width=device-width, initial-scale=1" name="viewport" />
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>David Provenzano</title>
 
-		<title>About David Provenzano</title>
-		<script src="https://kit.fontawesome.com/e54bbee573.js" crossorigin="anonymous"></script>
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
-		
-	</head>
-	<body>
-			<nav>
-				<section class="navContainer">
-					<a href="#" id="logo"> David Provenzano</a>
-					<section class="navLinks">
-						<a href="#" class="isActive">About</a>
-						<a href="#skills">Skills</a>
-						<a href="#portfolio">Portfolio</a>
-						<a href="#contactContainer">Contact</a>
-					</section>
-					<section class="socialLinks">
-						<a href="https://github.com/dprovenzano13" target="_blank"><i class="fa-brands fa-github"></i></a>
-						<a href="https://twitter.com/d_provenzano_" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-						<a href="https://www.linkedin.com/in/dprovenzano13/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-						<a href="mailto:dprovenzano13@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-					</section>
-					<button class="hamburger">
-						<span></span>
-						<span></span>
-						<span></span>
-					</button>
-				</section>
-			</nav>
-			<nav class="hamburgerNav">
-				<a href="#">About</a>
+	<script src="https://kit.fontawesome.com/e54bbee573.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="/js/main.js" defer></script>
+</head>
+<body>
+	<header>
+        <div class="container">
+            <a href="#"><h2>David Provenzano</h2></a>
+
+            <nav class="navLinks">
+                <a href="#" class="isActive">About</a>
 				<a href="#skills">Skills</a>
 				<a href="#portfolio">Portfolio</a>
-				<a href="#contactContainer">Contact</a>
-			</nav>
-		<section id="mainTop">
-			<section class="leftTop">
-				<div class="mainImg">
-					<img src="/img/mainMe1.jpg" alt="Picture of David Provenzano">
-				</div>
-				<section class="leftTopContent">
-					<h1>Hi, I'm David Provenzano</h1>
-					<p><span>A Software Engineer</span><br>based out of Orlando, FL who specializes in frontend and backend web development. If you want to learn more about me, check out my resume below.</p>
-				</section>
-				<a class="resumeButton" href="/resume/David_Provenzano_Resume.pdf">&#60;resume&#62;</a>
-			</section>
-		</section>
-		<section class="skills">
-			<h2 id="skills" >My Skills</h2>
-			<section class="skillsContainer">
-				<section class="skillsInfo">
-					<p>My skills include HTML, CSS, and JavaScript to make responsive and functional websites or web-based applications utilizing modern JavaScript and best practices.</p>
-				</section>
-				<section class="skillsImgContainer">
-						<img src="/img/html.png" alt="html">
-						<img src="/img/css.png" alt="css">
-						<img src="/img/js.png" alt="javascript">
-				</section>
-			</section>
-		</section>
-		 <section id="portfolio" class="portfolio">
-			<h2>Portfolio</h2>
-			<section class="projectsContainer">
-				<section class="topProjects">
-					<section class="projects">
+				<a href="#contact">Contact</a>
+            </nav>
+
+			<nav>
+                <a href="https://github.com/dprovenzano13" target="_blank"><i class="fa-brands fa-github"></i></a>
+				<a href="https://twitter.com/d_provenzano_" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+				<a href="https://www.linkedin.com/in/dprovenzano13/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+				<a href="mailto:dprovenzano13@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </nav>
+
+			<button class="hamburger">
+				<div class="bar"></div>
+			</button>
+        </div>
+    </header>
+
+	<nav class="hamburgerNav">
+		<a href="#">About</a>
+		<a href="#skills">Skills</a>
+		<a href="#portfolio">Portfolio</a>
+		<a href="#contact">Contact</a>
+	</nav>
+
+	<main>
+		<section class="banner">
+            <div class="container">
+                <h1>Hi, I'm David Provenzano</h1>
+				<p><span>A Software Engineer</span><br>based out of Orlando, FL who specializes in frontend and backend web development. If you want to learn more about me, check out my resume below.</p>
+				<a class="button" href="/resume/David_Provenzano_Resume.pdf">&#60;resume&#62;</a>
+            </div>
+        </section>
+
+		<section id="skills" class="skills">
+            <div class="container">
+                <h2>Skills</h2>
+
+						<p>My skills include HTML, CSS, JavaScript, Node.js, and MongoDB to make responsive and functional websites or web-based applications utilizing modern JavaScript and best practices.</p>
+
+					<div class="skillsGrid">
+						<figure class="imgBox">
+							<img src="/img/html.png" alt="html">
+						</figure>
+						<figure class="imgBox">
+							<img src="/img/css.png" alt="css">
+						</figure>
+						<figure class="imgBox">
+							<img src="/img/js.png" alt="javascript">
+						</figure>
+						<figure class="imgBox">
+							<img src="/img/nodejs.png" alt="node">
+						</figure>	
+						<figure class="imgBox">
+							<img src="/img/mongo.png" alt="mongoDB">
+						</figure>		
+					</div>
+			</div> 
+        </section>
+
+		<section id="portfolio" class="portfolio">
+			<div class="container">
+				
+				<h2>Portfolio</h2>
+
+				<div class="projectsGrid">
+					<div class="projects">
 						<a href="/projects/CapsuleCorp/index.html" target="none">
 							<video autoplay loop><source src="img/GIFs/DBZ.mp4"></video>
 							<span>Capsule Corp</span>
 						</a>
-					</section>
-					<section class="projects">
+					</div>
+					<div class="projects">
 						<a href="/projects/Doggo Directory/index.html" target="none">
 							<video autoplay loop><source src="img/GIFs/Dog.mp4"></video>
 							<span>Doggo Directory</span>
 						</a>
-					</section>
-					<section class="projects">
+					</div>
+					<div class="projects">
 						<a href="/projects/SourceWeb/index.html" target="none">
 							<video autoplay loop><source src="img/GIFs/Source.mp4"></video>
 							<span>Source</span>
 						</a>
-					</section>
-				</section>
-				<section class="bottomProjects">
-					<section class="projects">
+					</div>
+					<div class="projects">
 						<a href="/projects/RestaurantWeb/index.html" target="none">
 							<video class="restaurant" autoplay loop><source src="img/GIFs/Restaurant.mp4"></video>
 							<span>Restaurant</span>
 						</a>
-					</section>
-					<section class="projects">
+					</div>
+					<div class="projects">
 						<a href="/projects/Motivation Nation/index.html" target="none">
 							<video autoplay loop><source src="img/GIFs/Quotes.mp4"></video>
 							<span>Motivation Nation</span>
 						</a>
-					</section>
-					<section class="projects">
+					</div>
+					<div class="projects">
 						<a href="/projects/Student Search/index.html" target="none">
 							<video autoplay loop><source src="img/GIFs/Student.mp4"></video>
 							<span>Student Search</span>
 						</a>
-					</section>
-				</section>
-			</section>	
+					</div>
+				</div>
+			</div>	
 		</section>
-		<section id="contactContainer" class="mainContact">
-			<section class="contact">
-				<section class="contactContent">
+
+		<section id="contact" class="contact">
+			<div class="container">
+
+
+				<div class="content">
 					<h2>Get In Touch</h2>
 					<p>If you have any questions or just want to say hi, feel free to reach out!</p>
-					<section class="contactLinks">
+					
+					<div class="contactLinks">
 						<ul>
 							<li><i class="fa-solid fa-envelope"></i><a href="mailto:dprovenzano13@gmail.com">DProvenzano13@gmail.com</a></li>
 							<li><i class="fa-brands fa-twitter"></i><a href="https://twitter.com/d_provenzano_" target="_blank">DavidProvenzano.com/Twitter</a></li>
 							<li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/dprovenzano13/" target="_blank">DavidProvenzano.com/Linkedin</a></li>
 							<li><i class="fa-brands fa-github"></i><a href="https://github.com/dprovenzano13" target="_blank">DavidProvenzano.com/Github</a></li>
 						</ul>
-					</section>
-				</section>
-			</section>
+					</div>
+				</div>
+			</div>
 		</section>
-		<footer>
-			<p>Designed & Built by <span>David Provenzano<span></p>
-			<section class="footerLinks">
-				<a href="https://github.com/dprovenzano13"><i class="fa-brands fa-github"></i></a>
-				<a href="https://twitter.com/d_provenzano_" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-				<a href="https://www.linkedin.com/in/dprovenzano13/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-				<a href="mailto:dprovenzano13@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-			</section>
-		</footer>
-		<a class="goToTop" href="#"><i id="toTopBtn" class="fa-solid fa-circle-chevron-up"></i></a>
-		<script type="text/javascript" src="js/main.js"></script>
-	</body>
+	</main>
+
+	<footer>
+		<p>Designed & Built by <span>David Provenzano<span></p>
+		<section class="footerLinks">
+			<a href="https://github.com/dprovenzano13"><i class="fa-brands fa-github"></i></a>
+			<a href="https://twitter.com/d_provenzano_" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+			<a href="https://www.linkedin.com/in/dprovenzano13/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+			<a href="mailto:dprovenzano13@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+		</section>
+	</footer>
+	<a class="goToTop" href="#"><i id="toTopBtn" class="fa-solid fa-circle-chevron-up"></i></a>
+</body>
 </html>
